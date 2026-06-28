@@ -1,0 +1,11 @@
+action,device_name,location,device_role,device_vendor,device_model,availability_zone,lifecycle_status,planning_status,health_status,device_description,network,floor,aisle,rack
+add,DNVRCOMAMS001,DNVRCOMA,MS,Cisco,NCS8201,0,Active,Planned,4,test device,MetRON,10,2,1
+add,DNVRCOMAMS002,DNVRCOMA,MS,Cisco,NCS8201,1,Active,Planned,5,test device,MetRON,10,3,2
+add,DNVRCOMAMN1001,DNVRCOMA,OLS,Cisco,NCS1001,0,Active,Planned,4,test device,MetRON,10,2,1
+add,DNVRCOMAMN1002,DNVRCOMA,OLS,Cisco,NCS1001,1,Active,Planned,5,test device,MetRON,10,3,2
+add,DNVRCOMA7C001,DNVRCOMA,ECN,Cisco,NCS57C1,0,Active,Planned,4,test device,MetRON,10,2,1
+add,DNVRCOMA7C002,DNVRCOMA,ECN,Cisco,NCS57C1,1,Active,Planned,5,test device,MetRON,10,3,2
+add,DNVRCOMAMG001,DNVRCOMA,GW,Cisco,NCS57B1,0,Active,Planned,4,test device,MetRON,10,2,1
+add,DNVRCOMAMG002,DNVRCOMA,GW,Cisco,NCS57B1,1,Active,Planned,5,test device,MetRON,10,3,2
+add,DNVRCOMAMM001,DNVRCOMA,MAN,Cisco,TSG1100,0,Active,Planned,4,test device,MetRON,10,2,1
+add,DNVRCOMAMM002,DNVRCOMA,MAN,Cisco,TSG1100,1,Active,Planned,5,test device,MetRON,10,3,2

@@ -1,0 +1,16 @@
+port_name,port_speed,port_description,port_optic,port_tagging,port_cktid,port_service_status,port_type,port_health_status
+gig-0/0/0,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-0/0/1,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-0/0/2,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-0/0/3,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-0/0/4,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-0/0/5,400G,reserved,400G-LR5,Lag _member,CKT-002,Staged,Physical,5
+gig-1/0/0,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-1/0/1,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-1/0/3,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-1/0/4,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+gig-1/0/5,400G,reserved,400G-LR4,Lag _member,CKT-001,Staged,Physical,4
+ae0,400G,LAG bundle,NA,Tagged,CKT-1000,Staged,Logical,4
+ae1,400G,LAG bundle,NA,Tagged,CKT-1000,Staged,Logical,4
+ae2,400G,LAG bundle,NA,Tagged,CKT-1000,Staged,Logical,4
+ae3,400G,LAG bundle,NA,Tagged,CKT-1000,Staged,Logical,4

@@ -1,0 +1,12 @@
+device_name,location,device_role,device_type,availability_zone,lifecycle_status,device_status,device_model,device_vendor,health
+VAR1.DEN1,den1,VAR,Router,Denver-Zone1,Active,Operational,NCS 5500,Cisco,1
+VAR2.DEN1,den1,VAR,Router,Denver-Zone1,Active,Operational,NCS 5500,Cisco,1
+SDR1.ALB1,alb1,SDR,Switch,Albany-Zone2,Active,Operational,MX480,Juniper,2
+VAR1.SFO1,sfo1,VAR,Router,SanFran-Zone1,Active,Operational,NCS 5500,Cisco,1
+ESP3.NYC1,nyc1,ESP,Router,NewYork-Zone3,Active,Operational,ASR 9000,Cisco,3
+SDR1.DAL1,DAL1,VAR,Router,Zone-0,Growth,Active,MX10004,Juniper,1
+SDR2.DAL1,DAL1,VAR,Router,Zone-0,Growth,Active,MX10004,Juniper,1
+VAR1.DAL1,DAL1,VAR,Router,Zone-0,Growth,Active,MX10004,Juniper,1
+VAR2.DAL1,DAL1,VAR,Router,Zone-0,Growth,Active,MX10004,Juniper,1
+ESP21.DAl1,DAL1,ESP,Router,Zone-0,Growth,Active,7750-SR12,Nokia,2
+VAR1.HOU1,HOU1,VAR,Router,Zone-0,Growth,Active,MX10004,Juniper,1

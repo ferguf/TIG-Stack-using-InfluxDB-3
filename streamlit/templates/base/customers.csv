@@ -1,0 +1,6 @@
+action,account_id,customer_name
+add,101,Alice Smith
+add,102,Bob Jones
+delete,,Alice Smith
+delete,,test 
+add,103,Charlie Brown

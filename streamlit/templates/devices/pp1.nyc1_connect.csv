@@ -1,0 +1,6 @@
+action ,device_a,port_name,device_b,port_b,status,description
+Add,PP1.NYC1,PP-1,VAR2.NYC1,gig-0/0/0,patch, 
+Add,PP1.NYC1,PP-2,PP2.NYC1,PP-2,patch, 
+Add,PP1.NYC1,PP-3,VAR1.NYC1,gig-0/0/4,patch,
+Add,PP1.NYC1,PP-3,PP1.NYC1,PP-1,patch,
+Add,PP2.NYC1,PP-2,PP1.NYC1,PP-2,patch,

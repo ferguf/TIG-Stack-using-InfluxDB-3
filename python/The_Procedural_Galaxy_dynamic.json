@@ -1,0 +1,188 @@
+{
+    "id": "0bde9c2b-3868-4063-ac06-97a5e3f2481e",
+    "name": "The Procedural Galaxy",
+    "type": "Galaxy",
+    "starting_offset_angle": 0.0,
+    "constellations": [
+        {
+            "id": "dc4aaf99-4730-498c-9f83-1a7dcb8ce289",
+            "name": "StarSystem-1",
+            "type": "StarSystem",
+            "grid_location": "Grid-1",
+            "starting_offset_angle": 0.0,
+            "size": "xxl",
+            "color": "yellow",
+            "visible": "true",
+            "planets": [
+                {
+                    "id": "5e19bb10-9b4c-453a-914b-6c9119e72697",
+                    "name": "Planet-S1-P1",
+                    "type": "Planet",
+                    "orbital_value": 100.0,
+                    "drawing_offset_angle": 0.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "fb83e678-a3f3-482a-bc45-4161724baa28",
+                    "name": "Planet-S1-P2",
+                    "type": "Planet",
+                    "orbital_value": 100.0,
+                    "drawing_offset_angle": 120.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "a38c495a-ca0e-4db2-a285-acc949d31ecd",
+                    "name": "Planet-S1-P3",
+                    "type": "Planet",
+                    "orbital_value": 100.0,
+                    "drawing_offset_angle": 240.0,
+                    "size": "m",
+                    "color": "cyan",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "6b5817e1-84ce-48df-9c6d-e8cb42bca44c",
+                    "name": "Planet-S1-P4",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 0.0,
+                    "size": "m",
+                    "color": "blue",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "60100b59-9e34-4a58-8659-53140647a65f",
+                    "name": "Planet-S1-P5",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 72.0,
+                    "size": "m",
+                    "color": "green",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "3d194ea1-66a9-462a-87d9-4e055eb88cb3",
+                    "name": "Planet-S1-P6",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 144.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "985ce8e6-e064-435d-a745-23de92ffe699",
+                    "name": "Planet-S1-P7",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 216.0,
+                    "size": "m",
+                    "color": "yellow",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "c81aa050-8086-4eb9-9cd0-47ec56462ade",
+                    "name": "Planet-S1-P8",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 288.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "e88a69d9-4fb5-42bf-9a48-5a883fd99e02",
+                    "name": "Planet-S1-P9",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 0.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "4ca9c857-d7bf-4403-afde-12f91f51dace",
+                    "name": "Planet-S1-P10",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 51.42857142857143,
+                    "size": "m",
+                    "color": "green",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "31111477-584c-402d-8dc7-18d82d16d9f6",
+                    "name": "Planet-S1-P11",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 102.85714285714286,
+                    "size": "m",
+                    "color": "red",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "9fbce981-22e7-4d92-bd94-9b865eeb0f28",
+                    "name": "Planet-S1-P12",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 154.28571428571428,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "96a415c3-dc78-4c04-9145-9ab26952be7a",
+                    "name": "Planet-S1-P13",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 205.71428571428572,
+                    "size": "m",
+                    "color": "yellow",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "2348f3d9-0413-4699-b314-bc99f8266f93",
+                    "name": "Planet-S1-P14",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 257.14285714285717,
+                    "size": "m",
+                    "color": "blue",
+                    "visible": true,
+                    "moons": []
+                },
+                {
+                    "id": "b4083076-0ad8-4739-98c2-353aca393971",
+                    "name": "Planet-S1-P15",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 308.57142857142856,
+                    "size": "m",
+                    "color": "red",
+                    "visible": true,
+                    "moons": []
+                }
+            ]
+        }
+    ],
+    "size": "xxl",
+    "color": "random",
+    "visible": "true"
+}

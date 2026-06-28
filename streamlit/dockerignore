@@ -1,0 +1,22 @@
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Docker/IDE
+.dockerignore
+Dockerfile
+.git
+.gitignore
+.vscode/
+.idea/
+
+# Streamlit/OS
+.streamlit/config.toml
+.streamlit/credentials.toml
+.DS_Store

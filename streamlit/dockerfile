@@ -1,0 +1,21 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# 1. Install system tools for Postgres/Builds
+RUN apt-get update && apt-get install -y \
+    libpq-dev \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# 2. Copy requirements from the local directory (where this Dockerfile is)
+# Since the Dockerfile is in ./python/, just use "."
+COPY requirements.txt . 
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 3. Copy the rest of the code
+COPY . .
+
+EXPOSE 8501
+
+CMD ["python", "-m", "streamlit", "run", "streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0"]

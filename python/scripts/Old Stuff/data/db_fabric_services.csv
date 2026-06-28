@@ -1,0 +1,6 @@
+customer_account_id,service_name,service_alias,service_type,service_description
+ACC-1,E-Line-NYC-LA-100G,NYC-LA Interconnect,E-Line,Dedicated 100G link between NY and LA
+ACC-1,E-LAN-Global,Global Private Cloud,E-LAN,Mesh connectivity for all DC sites
+ACC-2,E-Line-CHI-DAL-10G,CHI-DAL Backup Link,E-Line,Secondary 10G link
+ACC-3,Virtual-PHX-1G,Phoenix Cloud Access,IPVPN,1G Virtual, Port Access to Cloud
+ACC-3,Virtual-PHX-1G,Phoenix Cloud Access,IPVPN,1G MCGW, Port Access to Cloud

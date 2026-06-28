@@ -1,0 +1,28 @@
+port_name,port_speed,port_description,port_optic,port_tagging,port_cktid,port_service_status,port_type,port_health_status
+gig-0/0/0,400G,reserved,100G-LR4,Lag_member,CKT-001,Staged,Physical,4
+gig-0/0/1,400G,reserved,100G-LR4,Lag_member,CKT-001,Staged,Physical,4
+gig-0/0/2,400G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/0/3,400G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/0,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/1,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/2,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/3,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/4,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/5,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/6,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/7,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/8,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/9,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/10,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-0/1/11,100G,Ready For Use,100G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-1/1/0,10G,Ready For Use,10G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-1/1/1,10G,Ready For Use,10G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-1/2/2,10G,Ready For Use,10G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-1/1/2,10G,Ready For Use,10G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-1/1/3,10G,Ready For Use,10G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-1/2/3,10G,Ready For Use,10G-LR4,Tagged,CKT-001,Staged,Physical,4
+gig-1/1/4,10G,Ready For Use,10G-LR4,Tagged,CKT-001,Staged,Physical,4
+ae0,400G,LAG bundle,LAG,Tagged,CKT-1000,Staged,Logical,4
+ae1,400G,LAG bundle,LAG,Tagged,CKT-1000,Staged,Logical,4
+ae2,400G,LAG bundle,LAG,Tagged,CKT-1000,Staged,Logical,4
+ae3,400G,LAG bundle,LAG,Tagged,CKT-1000,Staged,Logical,4

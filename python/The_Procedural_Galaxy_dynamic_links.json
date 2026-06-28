@@ -1,0 +1,875 @@
+{
+    "id": "13bf810f-4fe7-4403-8fb0-2e096cd4e412",
+    "name": "The Procedural Galaxy",
+    "type": "Galaxy",
+    "starting_offset_angle": 0.0,
+    "constellations": [
+        {
+            "id": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "name": "StarSystem-1",
+            "type": "StarSystem",
+            "grid_location": "Grid-1",
+            "starting_offset_angle": 0.0,
+            "size": "xxl",
+            "color": "yellow",
+            "visible": "true",
+            "planets": [
+                {
+                    "id": "471681f6-79c4-4d14-a780-66a8adfa51e7",
+                    "name": "Planet-S1-P1",
+                    "type": "Planet",
+                    "orbital_value": 100.0,
+                    "drawing_offset_angle": 0.0,
+                    "size": "m",
+                    "color": "blue",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/471681f6-79c4-4d14-a780-66a8adfa51e7"
+                },
+                {
+                    "id": "4453aeda-dad1-4c21-985e-a19d3124e5c9",
+                    "name": "Planet-S1-P2",
+                    "type": "Planet",
+                    "orbital_value": 100.0,
+                    "drawing_offset_angle": 72.0,
+                    "size": "m",
+                    "color": "cyan",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/4453aeda-dad1-4c21-985e-a19d3124e5c9"
+                },
+                {
+                    "id": "00c06aa9-c617-4fab-8e7f-6ff0761a3c08",
+                    "name": "Planet-S1-P3",
+                    "type": "Planet",
+                    "orbital_value": 100.0,
+                    "drawing_offset_angle": 144.0,
+                    "size": "m",
+                    "color": "yellow",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/00c06aa9-c617-4fab-8e7f-6ff0761a3c08"
+                },
+                {
+                    "id": "98fb2d54-057d-4cec-9b6b-cf022a0375bd",
+                    "name": "Planet-S1-P4",
+                    "type": "Planet",
+                    "orbital_value": 100.0,
+                    "drawing_offset_angle": 216.0,
+                    "size": "m",
+                    "color": "green",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/98fb2d54-057d-4cec-9b6b-cf022a0375bd"
+                },
+                {
+                    "id": "314022eb-02cc-4952-a9ec-261582221986",
+                    "name": "Planet-S1-P5",
+                    "type": "Planet",
+                    "orbital_value": 100.0,
+                    "drawing_offset_angle": 288.0,
+                    "size": "m",
+                    "color": "green",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/314022eb-02cc-4952-a9ec-261582221986"
+                },
+                {
+                    "id": "2c57c1b8-91e7-4119-b4bc-55531e07ba38",
+                    "name": "Planet-S1-P6",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 0.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/2c57c1b8-91e7-4119-b4bc-55531e07ba38"
+                },
+                {
+                    "id": "8e42560e-9b77-49ee-92cc-41d4a1336f3b",
+                    "name": "Planet-S1-P7",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 72.0,
+                    "size": "m",
+                    "color": "red",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/8e42560e-9b77-49ee-92cc-41d4a1336f3b"
+                },
+                {
+                    "id": "20e4c428-2eb4-4e4f-8fe8-c278d348927c",
+                    "name": "Planet-S1-P8",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 144.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/20e4c428-2eb4-4e4f-8fe8-c278d348927c"
+                },
+                {
+                    "id": "ba7a956c-fd2c-4e5f-8709-9183538f0f41",
+                    "name": "Planet-S1-P9",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 216.0,
+                    "size": "m",
+                    "color": "yellow",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/ba7a956c-fd2c-4e5f-8709-9183538f0f41"
+                },
+                {
+                    "id": "1c5e7b5d-cd48-419f-ad0a-f06517eb2c60",
+                    "name": "Planet-S1-P10",
+                    "type": "Planet",
+                    "orbital_value": 130.0,
+                    "drawing_offset_angle": 288.0,
+                    "size": "m",
+                    "color": "yellow",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/1c5e7b5d-cd48-419f-ad0a-f06517eb2c60"
+                },
+                {
+                    "id": "b0aba180-1e96-44e7-865e-7f2c4de7fe80",
+                    "name": "Planet-S1-P11",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 0.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/b0aba180-1e96-44e7-865e-7f2c4de7fe80"
+                },
+                {
+                    "id": "856de54f-1718-4656-bcae-dc55078bee5a",
+                    "name": "Planet-S1-P12",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 72.0,
+                    "size": "m",
+                    "color": "cyan",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/856de54f-1718-4656-bcae-dc55078bee5a"
+                },
+                {
+                    "id": "96f421bc-9948-4cdc-9f52-d1d61a5d00fd",
+                    "name": "Planet-S1-P13",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 144.0,
+                    "size": "m",
+                    "color": "blue",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/96f421bc-9948-4cdc-9f52-d1d61a5d00fd"
+                },
+                {
+                    "id": "79b7390a-038b-4c55-8fdf-7dc3043511e4",
+                    "name": "Planet-S1-P14",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 216.0,
+                    "size": "m",
+                    "color": "cyan",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/79b7390a-038b-4c55-8fdf-7dc3043511e4"
+                },
+                {
+                    "id": "f092bbfc-854a-41ae-89d4-20037aeae1bd",
+                    "name": "Planet-S1-P15",
+                    "type": "Planet",
+                    "orbital_value": 160.0,
+                    "drawing_offset_angle": 288.0,
+                    "size": "m",
+                    "color": "green",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/f092bbfc-854a-41ae-89d4-20037aeae1bd"
+                },
+                {
+                    "id": "e0c5c615-41b7-4d03-a40c-d2bbf66508a3",
+                    "name": "Planet-S1-P16",
+                    "type": "Planet",
+                    "orbital_value": 190.0,
+                    "drawing_offset_angle": 0.0,
+                    "size": "m",
+                    "color": "green",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/e0c5c615-41b7-4d03-a40c-d2bbf66508a3"
+                },
+                {
+                    "id": "7388efc9-379b-44cf-a33f-22eabb19cab9",
+                    "name": "Planet-S1-P17",
+                    "type": "Planet",
+                    "orbital_value": 190.0,
+                    "drawing_offset_angle": 72.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/7388efc9-379b-44cf-a33f-22eabb19cab9"
+                },
+                {
+                    "id": "58a178fa-ea02-435e-9845-885454d8b234",
+                    "name": "Planet-S1-P18",
+                    "type": "Planet",
+                    "orbital_value": 190.0,
+                    "drawing_offset_angle": 144.0,
+                    "size": "m",
+                    "color": "blue",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/58a178fa-ea02-435e-9845-885454d8b234"
+                },
+                {
+                    "id": "bf4e4150-5696-4d76-9271-8057e45a6c6a",
+                    "name": "Planet-S1-P19",
+                    "type": "Planet",
+                    "orbital_value": 190.0,
+                    "drawing_offset_angle": 216.0,
+                    "size": "m",
+                    "color": "cyan",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/bf4e4150-5696-4d76-9271-8057e45a6c6a"
+                },
+                {
+                    "id": "71a4ffae-ee68-48ec-92a7-5102f60c4923",
+                    "name": "Planet-S1-P20",
+                    "type": "Planet",
+                    "orbital_value": 190.0,
+                    "drawing_offset_angle": 288.0,
+                    "size": "m",
+                    "color": "yellow",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/71a4ffae-ee68-48ec-92a7-5102f60c4923"
+                },
+                {
+                    "id": "8995f2a7-ddca-42a6-b0c5-e19bafb6e748",
+                    "name": "Planet-S1-P21",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 0.0,
+                    "size": "m",
+                    "color": "cyan",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/8995f2a7-ddca-42a6-b0c5-e19bafb6e748"
+                },
+                {
+                    "id": "3f7616fe-ee7e-4d14-8b8a-9d550d195ed1",
+                    "name": "Planet-S1-P22",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 36.0,
+                    "size": "m",
+                    "color": "blue",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/3f7616fe-ee7e-4d14-8b8a-9d550d195ed1"
+                },
+                {
+                    "id": "bad45688-5804-42ad-9326-c637d544fd01",
+                    "name": "Planet-S1-P23",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 72.0,
+                    "size": "m",
+                    "color": "blue",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/bad45688-5804-42ad-9326-c637d544fd01"
+                },
+                {
+                    "id": "902c27d9-5932-44bc-9498-5d65639446f1",
+                    "name": "Planet-S1-P24",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 108.0,
+                    "size": "m",
+                    "color": "cyan",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/902c27d9-5932-44bc-9498-5d65639446f1"
+                },
+                {
+                    "id": "7ec3e298-f033-4001-9412-b24c2531f59c",
+                    "name": "Planet-S1-P25",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 144.0,
+                    "size": "m",
+                    "color": "green",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/7ec3e298-f033-4001-9412-b24c2531f59c"
+                },
+                {
+                    "id": "5fe6f04c-13f1-45ca-89f9-d9fe4cf56831",
+                    "name": "Planet-S1-P26",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 180.0,
+                    "size": "m",
+                    "color": "yellow",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/5fe6f04c-13f1-45ca-89f9-d9fe4cf56831"
+                },
+                {
+                    "id": "8228babf-27ec-4a2b-8705-01c1ea618d2f",
+                    "name": "Planet-S1-P27",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 216.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/8228babf-27ec-4a2b-8705-01c1ea618d2f"
+                },
+                {
+                    "id": "a6bfe218-ddca-4e3f-b156-bedacdfc8e9e",
+                    "name": "Planet-S1-P28",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 252.0,
+                    "size": "m",
+                    "color": "cyan",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/a6bfe218-ddca-4e3f-b156-bedacdfc8e9e"
+                },
+                {
+                    "id": "d89be069-bc8b-46dc-a3ed-22ff7606fc7d",
+                    "name": "Planet-S1-P29",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 288.0,
+                    "size": "m",
+                    "color": "magenta",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/d89be069-bc8b-46dc-a3ed-22ff7606fc7d"
+                },
+                {
+                    "id": "452e41a4-78a6-490c-a32f-6195d5bb426d",
+                    "name": "Planet-S1-P30",
+                    "type": "Planet",
+                    "orbital_value": 220.0,
+                    "drawing_offset_angle": 324.0,
+                    "size": "m",
+                    "color": "yellow",
+                    "visible": true,
+                    "moons": [],
+                    "url": "https://model.com/planet/452e41a4-78a6-490c-a32f-6195d5bb426d"
+                }
+            ],
+            "url": "https://model.com/star/e16f9c13-05fc-4f26-bbef-609c3df36407"
+        }
+    ],
+    "size": "xxl",
+    "color": "random",
+    "visible": "true",
+    "url": "https://model.com/galaxy/13bf810f-4fe7-4403-8fb0-2e096cd4e412",
+    "links": [
+        {
+            "id_a": "13bf810f-4fe7-4403-8fb0-2e096cd4e412",
+            "id_b": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "471681f6-79c4-4d14-a780-66a8adfa51e7",
+            "link_type": "line",
+            "color": "red",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "4453aeda-dad1-4c21-985e-a19d3124e5c9",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "00c06aa9-c617-4fab-8e7f-6ff0761a3c08",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "98fb2d54-057d-4cec-9b6b-cf022a0375bd",
+            "link_type": "line",
+            "color": "red",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "314022eb-02cc-4952-a9ec-261582221986",
+            "link_type": "line",
+            "color": "green",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "471681f6-79c4-4d14-a780-66a8adfa51e7",
+            "id_b": "4453aeda-dad1-4c21-985e-a19d3124e5c9",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "4453aeda-dad1-4c21-985e-a19d3124e5c9",
+            "id_b": "00c06aa9-c617-4fab-8e7f-6ff0761a3c08",
+            "link_type": "arc",
+            "color": "blue",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "00c06aa9-c617-4fab-8e7f-6ff0761a3c08",
+            "id_b": "98fb2d54-057d-4cec-9b6b-cf022a0375bd",
+            "link_type": "arc",
+            "color": "red",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "98fb2d54-057d-4cec-9b6b-cf022a0375bd",
+            "id_b": "314022eb-02cc-4952-a9ec-261582221986",
+            "link_type": "arc",
+            "color": "red",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "314022eb-02cc-4952-a9ec-261582221986",
+            "id_b": "471681f6-79c4-4d14-a780-66a8adfa51e7",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "2c57c1b8-91e7-4119-b4bc-55531e07ba38",
+            "link_type": "line",
+            "color": "orange",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "8e42560e-9b77-49ee-92cc-41d4a1336f3b",
+            "link_type": "line",
+            "color": "red",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "20e4c428-2eb4-4e4f-8fe8-c278d348927c",
+            "link_type": "line",
+            "color": "orange",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "ba7a956c-fd2c-4e5f-8709-9183538f0f41",
+            "link_type": "line",
+            "color": "green",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "1c5e7b5d-cd48-419f-ad0a-f06517eb2c60",
+            "link_type": "line",
+            "color": "red",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "2c57c1b8-91e7-4119-b4bc-55531e07ba38",
+            "id_b": "8e42560e-9b77-49ee-92cc-41d4a1336f3b",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "8e42560e-9b77-49ee-92cc-41d4a1336f3b",
+            "id_b": "20e4c428-2eb4-4e4f-8fe8-c278d348927c",
+            "link_type": "arc",
+            "color": "green",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "20e4c428-2eb4-4e4f-8fe8-c278d348927c",
+            "id_b": "ba7a956c-fd2c-4e5f-8709-9183538f0f41",
+            "link_type": "arc",
+            "color": "red",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "ba7a956c-fd2c-4e5f-8709-9183538f0f41",
+            "id_b": "1c5e7b5d-cd48-419f-ad0a-f06517eb2c60",
+            "link_type": "arc",
+            "color": "red",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "1c5e7b5d-cd48-419f-ad0a-f06517eb2c60",
+            "id_b": "2c57c1b8-91e7-4119-b4bc-55531e07ba38",
+            "link_type": "arc",
+            "color": "red",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "b0aba180-1e96-44e7-865e-7f2c4de7fe80",
+            "link_type": "line",
+            "color": "green",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "856de54f-1718-4656-bcae-dc55078bee5a",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "96f421bc-9948-4cdc-9f52-d1d61a5d00fd",
+            "link_type": "line",
+            "color": "orange",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "79b7390a-038b-4c55-8fdf-7dc3043511e4",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "f092bbfc-854a-41ae-89d4-20037aeae1bd",
+            "link_type": "line",
+            "color": "green",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "b0aba180-1e96-44e7-865e-7f2c4de7fe80",
+            "id_b": "856de54f-1718-4656-bcae-dc55078bee5a",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "856de54f-1718-4656-bcae-dc55078bee5a",
+            "id_b": "96f421bc-9948-4cdc-9f52-d1d61a5d00fd",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "96f421bc-9948-4cdc-9f52-d1d61a5d00fd",
+            "id_b": "79b7390a-038b-4c55-8fdf-7dc3043511e4",
+            "link_type": "arc",
+            "color": "red",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "79b7390a-038b-4c55-8fdf-7dc3043511e4",
+            "id_b": "f092bbfc-854a-41ae-89d4-20037aeae1bd",
+            "link_type": "arc",
+            "color": "blue",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "f092bbfc-854a-41ae-89d4-20037aeae1bd",
+            "id_b": "b0aba180-1e96-44e7-865e-7f2c4de7fe80",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "e0c5c615-41b7-4d03-a40c-d2bbf66508a3",
+            "link_type": "line",
+            "color": "red",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "7388efc9-379b-44cf-a33f-22eabb19cab9",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "58a178fa-ea02-435e-9845-885454d8b234",
+            "link_type": "line",
+            "color": "red",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "bf4e4150-5696-4d76-9271-8057e45a6c6a",
+            "link_type": "line",
+            "color": "orange",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "71a4ffae-ee68-48ec-92a7-5102f60c4923",
+            "link_type": "line",
+            "color": "green",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e0c5c615-41b7-4d03-a40c-d2bbf66508a3",
+            "id_b": "7388efc9-379b-44cf-a33f-22eabb19cab9",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "7388efc9-379b-44cf-a33f-22eabb19cab9",
+            "id_b": "58a178fa-ea02-435e-9845-885454d8b234",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "58a178fa-ea02-435e-9845-885454d8b234",
+            "id_b": "bf4e4150-5696-4d76-9271-8057e45a6c6a",
+            "link_type": "arc",
+            "color": "blue",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "bf4e4150-5696-4d76-9271-8057e45a6c6a",
+            "id_b": "71a4ffae-ee68-48ec-92a7-5102f60c4923",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "71a4ffae-ee68-48ec-92a7-5102f60c4923",
+            "id_b": "e0c5c615-41b7-4d03-a40c-d2bbf66508a3",
+            "link_type": "arc",
+            "color": "blue",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "8995f2a7-ddca-42a6-b0c5-e19bafb6e748",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "3f7616fe-ee7e-4d14-8b8a-9d550d195ed1",
+            "link_type": "line",
+            "color": "red",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "bad45688-5804-42ad-9326-c637d544fd01",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "902c27d9-5932-44bc-9498-5d65639446f1",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "7ec3e298-f033-4001-9412-b24c2531f59c",
+            "link_type": "line",
+            "color": "orange",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "5fe6f04c-13f1-45ca-89f9-d9fe4cf56831",
+            "link_type": "line",
+            "color": "green",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "8228babf-27ec-4a2b-8705-01c1ea618d2f",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "a6bfe218-ddca-4e3f-b156-bedacdfc8e9e",
+            "link_type": "line",
+            "color": "orange",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "d89be069-bc8b-46dc-a3ed-22ff7606fc7d",
+            "link_type": "line",
+            "color": "blue",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "e16f9c13-05fc-4f26-bbef-609c3df36407",
+            "id_b": "452e41a4-78a6-490c-a32f-6195d5bb426d",
+            "link_type": "line",
+            "color": "red",
+            "size": "s",
+            "style": "solid"
+        },
+        {
+            "id_a": "8995f2a7-ddca-42a6-b0c5-e19bafb6e748",
+            "id_b": "3f7616fe-ee7e-4d14-8b8a-9d550d195ed1",
+            "link_type": "arc",
+            "color": "red",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "3f7616fe-ee7e-4d14-8b8a-9d550d195ed1",
+            "id_b": "bad45688-5804-42ad-9326-c637d544fd01",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "bad45688-5804-42ad-9326-c637d544fd01",
+            "id_b": "902c27d9-5932-44bc-9498-5d65639446f1",
+            "link_type": "arc",
+            "color": "blue",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "902c27d9-5932-44bc-9498-5d65639446f1",
+            "id_b": "7ec3e298-f033-4001-9412-b24c2531f59c",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "7ec3e298-f033-4001-9412-b24c2531f59c",
+            "id_b": "5fe6f04c-13f1-45ca-89f9-d9fe4cf56831",
+            "link_type": "arc",
+            "color": "blue",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "5fe6f04c-13f1-45ca-89f9-d9fe4cf56831",
+            "id_b": "8228babf-27ec-4a2b-8705-01c1ea618d2f",
+            "link_type": "arc",
+            "color": "red",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "8228babf-27ec-4a2b-8705-01c1ea618d2f",
+            "id_b": "a6bfe218-ddca-4e3f-b156-bedacdfc8e9e",
+            "link_type": "arc",
+            "color": "green",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "a6bfe218-ddca-4e3f-b156-bedacdfc8e9e",
+            "id_b": "d89be069-bc8b-46dc-a3ed-22ff7606fc7d",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "d89be069-bc8b-46dc-a3ed-22ff7606fc7d",
+            "id_b": "452e41a4-78a6-490c-a32f-6195d5bb426d",
+            "link_type": "arc",
+            "color": "blue",
+            "size": "xs",
+            "style": "dash"
+        },
+        {
+            "id_a": "452e41a4-78a6-490c-a32f-6195d5bb426d",
+            "id_b": "8995f2a7-ddca-42a6-b0c5-e19bafb6e748",
+            "link_type": "arc",
+            "color": "orange",
+            "size": "xs",
+            "style": "dash"
+        }
+    ]
+}

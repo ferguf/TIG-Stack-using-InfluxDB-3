@@ -1,0 +1,16 @@
+port_name,port_speed,port_description,port_optic,port_tagging,port_cktid,port_service_status,port_type,port_health_status
+Chan-31,400G,reserved,None,None,CKT-001,Coherent,Physical,4
+Chan-32,400G,reserved,None,None,CKT-001,Coherent,Physical,4
+Chan-33,400G,reserved,None,None,CKT-002,Coherent,Physical,4
+Chan-34,400G,reserved,None,None,CKT-003,Coherent,Physical,4
+Chan-35,400G,reserved,None,None,CKT-004,Coherent,Physical,4
+Chan-36,400G,reserved,None,None,CKT-005,Coherent,Physical,4
+Chan-37,400G,reserved,None,None,CKT-006,Coherent,Physical,4
+Chan-38,400G,reserved,None,None,CKT-007,Coherent,Physical,4
+Chan-39,400G,reserved,None,None,CKT-008,Coherent,Physical,4
+Chan-40,400G,reserved,None,None,CKT-009,Coherent,Physical,4
+Chan-41,400G,reserved,None,None,CKT-010,Coherent,Physical,4
+ae0,400G,LAG bundle,LAG,Tagged,CKT-033,Staged,Logical,4
+ae1,400G,LAG bundle,LAG,Tagged,CKT-034,Staged,Logical,4
+OSC-1,1G,OSC channel,1G-LX,Tagged,CKT-010,Coherent,Physical,4
+Console ,aysnc,async,cat5,none,CKT-010,copper,Physical,4

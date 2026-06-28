@@ -1,0 +1,11 @@
+# Dockerfile.mcp (The FINAL, GUARANTEED Command)
+FROM node:20-alpine
+RUN apk add --no-cache build-base
+WORKDIR /app
+RUN npm install -g @modelcontextprotocol/server-postgres
+# We no longer need the entrypoint.sh script or the clean up
+RUN apk del build-base
+
+# Use the strict array CMD format to run Node directly.
+# The URL must be HARDCODED here since variable substitution failed.
+CMD ["node", "/usr/local/lib/node_modules/@modelcontextprotocol/server-postgres/dist/index.js", "--url=postgresql://myuser:mypassword@db:5432/mydatabase"]

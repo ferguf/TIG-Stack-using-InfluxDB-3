@@ -1,0 +1,30 @@
+# Use python:3.11-slim as the base image
+FROM python:3.11-slim
+
+# Set the working directory
+WORKDIR /app
+
+# Install system dependencies
+# Added cmake and pkg-config which are mandatory for pyarrow/flightsql-dbapi
+RUN apt-get update && apt-get install -y \
+    libpq-dev \
+    build-essential \
+    cmake \
+    pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements from the local directory (assumes context is ./python/api)
+COPY requirements.txt .
+
+# 1. Upgrade pip to the latest version
+# 2. Install requirements using --prefer-binary to avoid heavy compilation where possible
+# 3. Force upgrade SQLAlchemy to 2.0 to ensure compatibility with your models
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir --prefer-binary -r requirements.txt && \
+    pip install --no-cache-dir --upgrade "sqlalchemy>=2.0.29"
+
+# Copy the rest of the application source code
+COPY . .
+
+# Run FastAPI with Uvicorn
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]

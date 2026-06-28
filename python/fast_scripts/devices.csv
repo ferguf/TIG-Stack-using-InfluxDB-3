@@ -1,0 +1,3 @@
+action,device_name,location,device_role,device_vendor,device_model,serial_number,availability_zone,lifecycle_status,planning_status,health_status,device_description
+--- delete,VAR1.NYC1,,,,,,,,,,,
+add,VAR1.NYC1,NYC1,VAR,Juniper,MX10004,SRE1234,Zone 0,Active,Planned,4,test device

@@ -1,0 +1,71 @@
+port_name,port_speed,port_description,port_optic,port_tagging,port_cktid,port_service_status,port_type,port_health_status
+GE 0/0/0,1G,Management,RJ45,None,CKT-001,Staged,Physical,4
+GE 0/0/1,1G,Management,RJ45,None,CKT-001,Staged,Physical,4
+GE 0/0/2,1G,Management,RJ45,None,CKT-002,Staged,Physical,4
+GE 0/0/3,1G,Management,RJ45,None,CKT-003,Staged,Physical,4
+GE 0/0/4,1G,Management,RJ45,None,CKT-004,Staged,Physical,4
+GE 0/0/5,1G,Management,RJ45,None,CKT-005,Staged,Physical,4
+GE 0/0/6,1G,Management,RJ45,None,CKT-006,Staged,Physical,4
+GE 0/0/7,1G,Management,RJ45,None,CKT-007,Staged,Physical,4
+GE 0/0/8,1G,Management,RJ45,None,CKT-008,Staged,Physical,4
+GE 0/0/9,1G,Management,RJ45,None,CKT-009,Staged,Physical,4
+GE 0/0/10,1G,Management,RJ45,None,CKT-010,Staged,Physical,4
+GE 0/0/11,1G,Management,RJ45,None,CKT-011,Staged,Physical,4
+GE 0/0/12,1G,Management,RJ45,None,CKT-012,Staged,Physical,4
+GE 0/0/13,1G,Management,RJ45,None,CKT-013,Staged,Physical,4
+GE 0/0/14,1G,Management,RJ45,None,CKT-014,Staged,Physical,4
+GE 0/0/15,1G,Management,RJ45,None,CKT-015,Staged,Physical,4
+GE 0/0/16,1G,Management,RJ45,None,CKT-016,Staged,Physical,4
+GE 0/0/17,1G,Management,RJ45,None,CKT-017,Staged,Physical,4
+GE 0/0/18,1G,Management,RJ45,None,CKT-018,Staged,Physical,4
+GE 0/0/19,1G,Management,RJ45,None,CKT-019,Staged,Physical,4
+GE 0/0/20,1G,Management,RJ45,None,CKT-020,Staged,Physical,4
+GE 0/0/21,1G,Management,RJ45,None,CKT-021,Staged,Physical,4
+GE 0/0/22,1G,Management,RJ45,None,CKT-022,Staged,Physical,4
+GE 0/0/23,1G,Management,RJ45,None,CKT-023,Staged,Physical,4
+GE 0/0/24,1G,Management,RJ45,None,CKT-024,Staged,Physical,4
+GE 0/0/25,1G,Management,RJ45,None,CKT-025,Staged,Physical,4
+GE 0/0/26,1G,Management,RJ45,None,CKT-026,Staged,Physical,4
+GE 0/0/27,1G,Management,RJ45,None,CKT-027,Staged,Physical,4
+GE 0/0/28,1G,Management,RJ45,None,CKT-028,Staged,Physical,4
+GE 0/0/29,1G,Management,RJ45,None,CKT-029,Staged,Physical,4
+async 1,async 1,Console,rj45,Lag_member,CKT-030,Staged,Physical,4
+async 2,async 2,Console,rj45,Lag_member,CKT-031,Staged,Physical,4
+async 3,async 3,Console,rj45,Lag_member,CKT-032,Staged,Physical,4
+async 4,async 4,Console,rj45,Lag_member,CKT-033,Staged,Physical,4
+async 5,async 5,Console,rj45,Lag_member,CKT-034,Staged,Physical,4
+async 6,async 6,Console,rj45,Lag_member,CKT-035,Staged,Physical,4
+async 7,async 7,Console,rj45,Lag_member,CKT-036,Staged,Physical,4
+async 8,async 8,Console,rj45,Lag_member,CKT-037,Staged,Physical,4
+async 9,async 9,Console,rj45,Lag_member,CKT-038,Staged,Physical,4
+async 10,async 10,Console,rj45,Lag_member,CKT-039,Staged,Physical,4
+async 11,async 11,Console,rj45,Lag_member,CKT-040,Staged,Physical,4
+async 12,async 12,Console,rj45,Lag_member,CKT-041,Staged,Physical,4
+async 13,async 13,Console,rj45,Lag_member,CKT-042,Staged,Physical,4
+async 14,async 14,Console,rj45,Lag_member,CKT-043,Staged,Physical,4
+async 15,async 15,Console,rj45,Lag_member,CKT-044,Staged,Physical,4
+async 16,async 16,Console,rj45,Lag_member,CKT-045,Staged,Physical,4
+async 17,async 17,Console,rj45,Lag_member,CKT-046,Staged,Physical,4
+async 18,async 18,Console,rj45,Lag_member,CKT-047,Staged,Physical,4
+async 19,async 19,Console,rj45,Lag_member,CKT-048,Staged,Physical,4
+async 20,async 20,Console,rj45,Lag_member,CKT-049,Staged,Physical,4
+async 21,async 21,Console,rj45,Lag_member,CKT-050,Staged,Physical,4
+async 22,async 22,Console,rj45,Lag_member,CKT-051,Staged,Physical,4
+async 23,async 23,Console,rj45,Lag_member,CKT-052,Staged,Physical,4
+async 24,async 24,Console,rj45,Lag_member,CKT-053,Staged,Physical,4
+async 25,async 25,Console,rj45,Lag_member,CKT-054,Staged,Physical,4
+async 26,async 26,Console,rj45,Tagged,CKT-055,Staged,Logical,4
+async 27,async 27,Console,rj45,Tagged,CKT-056,Staged,Logical,4
+async 28,async 28,Console,rj45,Tagged,CKT-057,Staged,Logical,4
+async 29,async 29,Console,rj45,Tagged,CKT-058,Staged,Logical,4
+async 30,async 30,Console,rj45,Tagged,CKT-059,Staged,Logical,4
+async 31,async 31,Console,rj45,Tagged,CKT-060,Staged,Logical,4
+async 32,async 32,Console,rj45,Tagged,CKT-061,Staged,Logical,4
+ae1,1G,LAG bundle,LAG,Tagged,CKT-062,Staged,Logical,4
+ae2,1G,LAG bundle,LAG,Tagged,CKT-063,Staged,Logical,5
+ae3,1G,LAG bundle,LAG,Tagged,CKT-064,Staged,Logical,6
+ae4,1G,LAG bundle,LAG,Tagged,CKT-065,Staged,Logical,7
+ae5,1G,LAG bundle,LAG,Tagged,CKT-066,Staged,Logical,8
+ae6,1G,LAG bundle,LAG,Tagged,CKT-067,Staged,Logical,9
+ae7,1G,LAG bundle,LAG,Tagged,CKT-068,Staged,Logical,10
+ae8,1G,LAG bundle,LAG,Tagged,CKT-069,Staged,Logical,11

@@ -1,0 +1,9 @@
+﻿action,device_name,location,device_role,device_vendor,device_model,availability_zone,lifecycle_status,planning_status,health_status,device_description,network
+add,PP1.NYC1,NYC1,FDP,Hubbell Wiring Systems,NSPJ48,0,Active,Planned,0,"Hubbell NSPJ48 Patch-Panel, Jack, Unld, Netselect, 48P, 19"" Wx3.5"" H",Infra
+add,PP2.NYC1,NYC1,FDP,Hubbell Wiring Systems,NSPJ48,0,Active,Planned,0,"Hubbell NSPJ48 Patch-Panel, Jack, Unld, Netselect, 48P, 19"" Wx3.5"" H",Infra
+add,PP3.NYC1,NYC1,FDP,Hubbell Wiring Systems,NSPJ48,0,Active,active ,0,"Hubbell NSPJ48 Patch-Panel, Jack, Unld, Netselect, 48P, 19"" Wx3.5"" H",Infra
+add,PP4.NYC1,NYC1,FDP,Hubbell Wiring Systems,NSPJ48,0,Active,Planned,0,"Hubbell NSPJ48 Patch-Panel, Jack, Unld, Netselect, 48P, 19"" Wx3.5"" H",Infra
+add,PP1.DEN1,DEN1,FDP,Hubbell Wiring Systems,NSPJ48,0,Active,Planned,0,"Hubbell NSPJ48 Patch-Panel, Jack, Unld, Netselect, 48P, 19"" Wx3.5"" H",Infra
+add,PP2.DEN1,DEN1,FDP,Hubbell Wiring Systems,NSPJ48,0,Active,Planned,0,"Hubbell NSPJ48 Patch-Panel, Jack, Unld, Netselect, 48P, 19"" Wx3.5"" H",Infra
+add,PP3.DEN1,DEN1,FDP,Hubbell Wiring Systems,NSPJ48,0,Active,planned,0,"Hubbell NSPJ48 Patch-Panel, Jack, Unld, Netselect, 48P, 19"" Wx3.5"" H",Infra
+add,PP4.DEN1,DEN1,FDP,Hubbell Wiring Systems,NSPJ48,0,Active,Planned,0,"Hubbell NSPJ48 Patch-Panel, Jack, Unld, Netselect, 48P, 19"" Wx3.5"" H",Infra

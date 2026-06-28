@@ -1,0 +1,104 @@
+{
+    "id": "7673a81b-a9b3-4ea2-a2e2-7d3b4816a22c",
+    "name": "Milky Way",
+    "type": "Galaxy",
+    "starting_offset_angle": 0.0,
+    "constellations": [
+        {
+            "id": "0b9dc6be-715f-4a05-9633-d65a8562b514",
+            "name": "Orion-Grid",
+            "type": "Constellation",
+            "grid_location": "1",
+            "starting_offset_angle": 0.0,
+            "star_systems": [
+                {
+                    "id": "3af6f5f3-0e09-46f6-b1af-e9b53154995f",
+                    "name": "Alpha-Sun",
+                    "type": "Star",
+                    "starting_offset_angle": 30.0,
+                    "planets": [
+                        {
+                            "id": "69bb2278-ebe7-4d01-8c70-13a0c6ef832b",
+                            "name": "A",
+                            "type": "Planet",
+                            "orbital_value": 1.0,
+                            "drawing_offset_angle": 30.0,
+                            "moons": [
+                                {
+                                    "id": "f82e4505-88d7-4382-8ac7-717d7161b5aa",
+                                    "name": "Moon-A",
+                                    "type": "Moon",
+                                    "orbital_value": 0.2,
+                                    "drawing_offset_angle": 90.0
+                                },
+                                {
+                                    "id": "350c69ae-1f32-4dda-9a89-88db3ba24082",
+                                    "name": "Moon-A",
+                                    "type": "Moon",
+                                    "orbital_value": 0.5,
+                                    "drawing_offset_angle": 90.0
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fe97a29e-90e0-4ecf-b0a4-904648cc6d70",
+                            "name": "planet-y",
+                            "type": "Planet",
+                            "orbital_value": 2.0,
+                            "drawing_offset_angle": 30.0,
+                            "moons": []
+                        },
+                        {
+                            "id": "274f6d25-34f5-4149-a743-9860122f3f67",
+                            "name": "Planet-z",
+                            "type": "Planet",
+                            "orbital_value": 2.0,
+                            "drawing_offset_angle": 210.0,
+                            "moons": []
+                        }
+                    ]
+                },
+                {
+                    "id": "a32bc64c-b59d-4d8b-aa93-06a97f6d987a",
+                    "name": "Alpha-Sun",
+                    "type": "Star",
+                    "starting_offset_angle": 0.0,
+                    "planets": [
+                        {
+                            "id": "26b281d5-92d1-4b82-b000-c385f003c42a",
+                            "name": "Planet-X",
+                            "type": "Planet",
+                            "orbital_value": 2.0,
+                            "drawing_offset_angle": 30.0,
+                            "moons": []
+                        },
+                        {
+                            "id": "7a1df6cb-63f9-4c69-9f8b-ef086032a749",
+                            "name": "Planet-X",
+                            "type": "Planet",
+                            "orbital_value": 2.0,
+                            "drawing_offset_angle": 150.0,
+                            "moons": [
+                                {
+                                    "id": "dd76202c-cf39-4dc4-acf9-03cdfbbe7bee",
+                                    "name": "Moon-A",
+                                    "type": "Moon",
+                                    "orbital_value": 0.5,
+                                    "drawing_offset_angle": 30.0
+                                }
+                            ]
+                        },
+                        {
+                            "id": "36c0dd01-6580-4533-b040-19c4cf1a5f00",
+                            "name": "planet-d",
+                            "type": "Planet",
+                            "orbital_value": 2.0,
+                            "drawing_offset_angle": 270.0,
+                            "moons": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic==2.*
+markdown2
+fastmcp
+plotly
+flightsql-dbapi
+influxdb3-python
+pandas

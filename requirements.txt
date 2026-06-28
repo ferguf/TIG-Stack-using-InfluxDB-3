@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic==2.*
+markdown2
+fastmcp
+plotly
+streamlit-plotly-events

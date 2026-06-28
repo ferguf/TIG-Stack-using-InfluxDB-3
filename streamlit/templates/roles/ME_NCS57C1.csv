@@ -1,0 +1,71 @@
+port_name,port_speed,port_description,port_optic,port_tagging,port_cktid,port_service_status,port_type,port_health_status
+gig-0/0/0,400G,reserved,100G-LR4,Lag_member,CKT-001,Staged,Physical,4
+gig-0/0/1,400G,reserved,100G-LR4,Lag_member,CKT-001,Staged,Physical,4
+gig-0/0/2,400G,reserved,100G-LR5,Lag_member,CKT-002,Staged,Physical,4
+gig-0/0/3,400G,reserved,100G-LR6,Lag_member,CKT-003,Staged,Physical,4
+gig-0/0/4,400G,reserved,100G-LR7,Lag_member,CKT-004,Staged,Physical,4
+gig-0/0/5,400G,reserved,100G-LR8,Lag_member,CKT-005,Staged,Physical,4
+gig-1/0/0,10G,reserved,10G-bidi,Lag_member,CKT-006,Staged,Physical,4
+gig-1/0/1,10G,reserved,10G-bidi,Lag_member,CKT-007,Staged,Physical,4
+gig-1/0/2,10G,reserved,10G-bidi,Lag_member,CKT-008,Staged,Physical,4
+gig-1/0/3,10G,reserved,10G-bidi,Lag_member,CKT-009,Staged,Physical,4
+gig-1/0/4,10G,reserved,10G-bidi,Lag_member,CKT-010,Staged,Physical,4
+gig-1/0/5,10G,reserved,10G-bidi,Lag_member,CKT-011,Staged,Physical,4
+gig-1/0/6,10G,reserved,10G-bidi,Lag_member,CKT-012,Staged,Physical,4
+gig-1/0/7,10G,reserved,10G-bidi,Lag_member,CKT-013,Staged,Physical,4
+gig-1/0/8,10G,reserved,10G-bidi,Lag_member,CKT-014,Staged,Physical,4
+gig-1/0/9,10G,reserved,10G-bidi,Lag_member,CKT-015,Staged,Physical,4
+gig-1/0/10,10G,reserved,10G-bidi,Lag_member,CKT-016,Staged,Physical,4
+gig-1/0/11,10G,reserved,10G-bidi,Lag_member,CKT-017,Staged,Physical,4
+gig-1/0/12,10G,reserved,10G-bidi,Lag_member,CKT-018,Staged,Physical,4
+gig-1/0/13,10G,reserved,10G-bidi,Lag_member,CKT-019,Staged,Physical,4
+gig-1/0/14,10G,reserved,10G-bidi,Lag_member,CKT-020,Staged,Physical,4
+gig-1/0/15,10G,reserved,10G-bidi,Lag_member,CKT-021,Staged,Physical,4
+gig-1/0/16,10G,reserved,10G-bidi,Lag_member,CKT-022,Staged,Physical,4
+gig-1/0/17,10G,reserved,10G-bidi,Lag_member,CKT-023,Staged,Physical,4
+gig-1/0/18,10G,reserved,10G-bidi,Lag_member,CKT-024,Staged,Physical,4
+gig-1/0/19,10G,reserved,10G-bidi,Lag_member,CKT-025,Staged,Physical,4
+gig-1/0/20,10G,reserved,10G-bidi,Lag_member,CKT-026,Staged,Physical,4
+gig-1/0/21,10G,reserved,10G-bidi,Lag_member,CKT-027,Staged,Physical,4
+gig-1/0/22,10G,reserved,10G-bidi,Lag_member,CKT-028,Staged,Physical,4
+gig-1/0/23,10G,reserved,10G-bidi,Lag_member,CKT-029,Staged,Physical,4
+gig-1/0/24,10G,reserved,10G-bidi,Lag_member,CKT-030,Staged,Physical,4
+gig-1/0/25,10G,reserved,10G-bidi,Lag_member,CKT-031,Staged,Physical,4
+gig-1/0/26,10G,reserved,10G-bidi,Lag_member,CKT-032,Staged,Physical,4
+gig-1/0/27,10G,reserved,10G-bidi,Lag_member,CKT-033,Staged,Physical,4
+gig-1/0/28,10G,reserved,10G-bidi,Lag_member,CKT-034,Staged,Physical,4
+gig-1/0/29,10G,reserved,10G-bidi,Lag_member,CKT-035,Staged,Physical,4
+gig-1/0/30,10G,reserved,10G-bidi,Lag_member,CKT-036,Staged,Physical,4
+gig-1/0/31,10G,reserved,10G-bidi,Lag_member,CKT-037,Staged,Physical,4
+gig-1/0/32,10G,reserved,10G-bidi,Lag_member,CKT-038,Staged,Physical,4
+gig-1/0/33,10G,reserved,10G-bidi,Lag_member,CKT-039,Staged,Physical,4
+gig-1/0/34,10G,reserved,10G-bidi,Lag_member,CKT-040,Staged,Physical,4
+gig-1/0/35,10G,reserved,10G-bidi,Lag_member,CKT-041,Staged,Physical,4
+gig-1/0/36,10G,reserved,10G-bidi,Lag_member,CKT-042,Staged,Physical,4
+gig-1/0/37,10G,reserved,10G-bidi,Lag_member,CKT-043,Staged,Physical,4
+gig-1/0/38,10G,reserved,10G-bidi,Lag_member,CKT-044,Staged,Physical,4
+gig-1/0/39,10G,reserved,10G-bidi,Lag_member,CKT-045,Staged,Physical,4
+gig-1/0/40,10G,reserved,10G-bidi,Lag_member,CKT-046,Staged,Physical,4
+gig-1/0/41,10G,reserved,10G-bidi,Lag_member,CKT-047,Staged,Physical,4
+gig-1/0/42,10G,reserved,10G-bidi,Lag_member,CKT-048,Staged,Physical,4
+gig-1/0/43,10G,reserved,10G-bidi,Lag_member,CKT-049,Staged,Physical,4
+gig-1/0/44,10G,reserved,10G-bidi,Lag_member,CKT-050,Staged,Physical,4
+gig-1/0/45,10G,reserved,10G-bidi,Lag_member,CKT-051,Staged,Physical,4
+gig-1/0/46,10G,reserved,10G-bidi,Lag_member,CKT-052,Staged,Physical,4
+gig-1/0/47,10G,reserved,10G-bidi,Lag_member,CKT-053,Staged,Physical,4
+gig-1/0/48,10G,reserved,10G-bidi,Lag_member,CKT-054,Staged,Physical,4
+ae0,400G,LAG bundle,LAG,Tagged,CKT-055,Staged,Logical,4
+ae1,400G,LAG bundle,LAG,Tagged,CKT-056,Staged,Logical,4
+ae10,10G,LAG bundle,LAG,Tagged,CKT-057,Staged,Logical,4
+ae11,10G,LAG bundle,LAG,Tagged,CKT-058,Staged,Logical,4
+ae12,10G,LAG bundle,LAG,Tagged,CKT-059,Staged,Logical,4
+ae13,10G,LAG bundle,LAG,Tagged,CKT-060,Staged,Logical,4
+ae14,10G,LAG bundle,LAG,Tagged,CKT-061,Staged,Logical,4
+ae15,10G,LAG bundle,LAG,Tagged,CKT-062,Staged,Logical,4
+ae16,10G,LAG bundle,LAG,Tagged,CKT-063,Staged,Logical,4
+ae17,10G,LAG bundle,LAG,Tagged,CKT-064,Staged,Logical,4
+ae18,10G,LAG bundle,LAG,Tagged,CKT-065,Staged,Logical,4
+ae19,10G,LAG bundle,LAG,Tagged,CKT-066,Staged,Logical,4
+ae20,10G,LAG bundle,LAG,Tagged,CKT-067,Staged,Logical,4
+ae21,10G,LAG bundle,LAG,Tagged,CKT-068,Staged,Logical,4
+ae22,10G,LAG bundle,LAG,Tagged,CKT-069,Staged,Logical,4

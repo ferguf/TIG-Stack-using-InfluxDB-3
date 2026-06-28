@@ -1,0 +1,19 @@
+
+
+{
+    "name": "Debug Module with Arguments",
+    "type": "debugpy",
+    "request": "launch",
+    // 1. Specify the module name instead of the program path
+    "module": "your_module_name", 
+    
+    // 2. Specify the arguments as a list of strings
+    "args": [
+        "subcommand_name",
+        "--flag-argument",
+        "value_for_argument"
+    ],
+    
+    // Optional: Set the working directory if your module relies on relative paths
+    "cwd": "${workspaceFolder}" 
+}

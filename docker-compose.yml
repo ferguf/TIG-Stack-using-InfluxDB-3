@@ -1,56 +1,114 @@
-services:
-  influxdb3-core:
-    container_name: influxdb3-core
-    image: influxdb:3-core
-    ports:
-      - 8181:8181
-    command:
-      - influxdb3
-      - serve
-      - --node-id=${INFLUXDB_NODE_ID}
-      - --object-store=file
-      - --data-dir=/var/lib/influxdb3
-    volumes:
-      - influxdb_data:/var/lib/influxdb3
-    healthcheck:
-      test: ["CMD-SHELL", "curl -f -H 'Authorization: Bearer ${INFLUXDB_TOKEN}' http://localhost:8181/health || exit 1"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-    restart: unless-stopped
+version: "3.9"
 
-  telegraf:
-    container_name: telegraf
-    image: telegraf
-    depends_on:
-      influxdb3-core:
-        condition: service_healthy
-    # Optionally, you can switch to depend on influxdb3-enterprise if using that
-    environment:
-      - INFLUXDB_HOST=${INFLUXDB_HOST}
-      - INFLUXDB_TOKEN=${INFLUXDB_TOKEN}
-      - INFLUXDB_ORG=${INFLUXDB_ORG}
-      - INFLUXDB_BUCKET=${INFLUXDB_BUCKET}
-      - TELEGRAF_COLLECTION_INTERVAL=${TELEGRAF_COLLECTION_INTERVAL}
-      - HOSTNAME=telegraf
+services:
+  fastapi:
+    build:
+      context: . 
+    container_name: fastapi
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload --log-level debug
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
     volumes:
-      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf
+      - .:/app 
+    working_dir: /app/python
     restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      # Explicitly set the URL with the grpc protocol to stop the 443/TLS guessing
+      - INFLUX_URL=grpc://influxdb3-core:8181
+      # Use the verified working token
+      - INFLUX_TOKEN=apiv3_aAcM9fWA-xBEv3DJhD3Zvx-PCjrLFSvbP_s0ArjY8qf8aS1Ac55VKBVssyKvy8mB445W7ryAX-g0zsOiHsaiJg
+      - INFLUX_DB=network_inventory
+    networks:
+      - tig-network
+
+  streamlit:
+    build:
+      context: ./streamlit
+    container_name: streamlit
+    ports:
+      - "8501:8501"
+    depends_on:
+      - fastapi
+    volumes:
+      - ./streamlit:/app
+    environment:
+      - STREAMLIT_SERVER_FILE_WATCHER_TYPE=poll
+      - STREAMLIT_SERVER_RUN_ON_SAVE=true
+      - PYTHONPATH=/app
+    restart: unless-stopped
+    networks:
+      - tig-network
+
+  db:
+    image: postgres:16-alpine
+    container_name: db
+    environment:
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_DB=mydatabase
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data_postgres:/var/lib/postgresql/data
+      - ./psql:/scripts
+    restart: unless-stopped
+    networks:
+      - tig-network
+
+  
+  influxdb3-core:
+    image: influxdb:3-core
+    container_name: influxdb3-core
+    ports:
+      - "8888:80"
+      - "443:443"   # Map Host 443 to Container 443
+    environment:
+      - INFLUXDB_DATABASE=network_inventory # Tells the engine to create this on boot
+      - INFLUXDB_IOX_DB_DIR=/var/lib/influxdb3
+      - INFLUXDB_HTTP_BIND_ADDRESS=0.0.0.0:8181
+      - INFLUXDB3_NODE_ID=tig-node-1
+      # Update this to the token we just generated
+      - INFLUXDB_ADMIN_USER_TOKEN=apiv3_aAcM9fWA-xBEv3DJhD3Zvx-PCjrLFSvbP_s0ArjY8qf8aS1Ac55VKBVssyKvy8mB445W7ryAX-g0zsOiHsaiJg
+    volumes:
+      - db_data_influx:/var/lib/influxdb3
+      - ./admin-token.json:/etc/influxdb3/admin-token.json:ro
+    # Added the --admin-token-file flag back to the command to match your volume mount
+    command: ["influxdb3", "serve", "--node-id", "tig-node-1", "--admin-token-file", "/etc/influxdb3/admin-token.json"]
+    networks:
+      - tig-network
 
   grafana:
     image: grafana/grafana
+    container_name: grafana
     ports:
-      - "${GRAFANA_PORT}:3000"
-    volumes:
-      - grafana_data:/var/lib/grafana
-    environment:
-      - GF_SECURITY_ADMIN_USER=${GRAFANA_ADMIN_USER}
-      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD}
+      - "3000:3000"
+    restart: unless-stopped
+    networks:
+      - tig-network
+
+  telegraf:
+    image: telegraf:latest
+    container_name: telegraf
+    hostname: telegraf
     depends_on:
       - influxdb3-core
-    # Or switch to influxdb3-enterprise as needed
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+      - ./telegraf:/app/telegraf:rw
     restart: unless-stopped
+    networks:
+      - tig-network
+
+# Explicit network definition to allow container-to-container DNS resolution
+networks:
+  tig-network:
+    driver: bridge
 
 volumes:
-  influxdb_data:
-  grafana_data:
+  db_data_postgres:
+  db_data_influx:

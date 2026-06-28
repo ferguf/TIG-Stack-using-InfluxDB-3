@@ -1,0 +1,944 @@
+[2026-01-15 21:58:17] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 21:58:17] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-01-15 21:58:18] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 21:58:18] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-01-15 21:58:25] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 21:58:25] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-01-15 21:58:25] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 21:58:25] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-01-15 21:58:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 21:58:43] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-01-15 21:58:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 21:58:43] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-01-15 22:05:39] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 22:05:39] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-01-15 22:05:39] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 22:05:39] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-01-15 23:12:17] [SYS] [ERROR] ❌ Cannot delete: VAR31.DEN1 not found in DB.
+[2026-01-15 23:12:36] [SYS] [ERROR] ❌ Cannot delete: VAR31.DEN1 not found in DB.
+[2026-01-15 23:13:10] [SYS] [ERROR] ❌ Cannot delete: VAR31.DEN1 not found in DB.
+[2026-01-15 23:14:44] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:14:44] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:14:44] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:14:44] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:14:48] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:14:48] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:14:48] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'action': 'add', 'device_name': 'VAR1.NYC1', 'location': 'NYC1', 'device_role': 'VAR', 'device_vendor': 'Juniper', 'device_model': 'MX10004', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'device_description': 'test device', 'unnamed:_11': 3549, 'floor': 10, 'isle': 2, 'rack': 1, 'network': ''}
+[2026-01-15 23:14:48] [API] [ERROR] ❌ Device Creation Failed: HTTP 422 - {"error":"Validation failed","details":[{"type":"string_type","loc":["body","floor"],"msg":"Input should be a valid string","input":10},{"type":"string_type","loc":["body","rack"],"msg":"Input should be a valid string","input":1}],"body":{"action":"add","device_name":"VAR1.NYC1","location":"NYC1","device_role":"VAR","device_vendor":"Juniper","device_model":"MX10004","availability_zone":"0","lifecycle_status":"Active","planning_status":"Planned","health_status":4,"device_description":"test device","unnamed:_11":3549,"floor":10,"isle":2,"rack":1,"network":""}}
+[2026-01-15 23:14:48] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:14:48] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:14:59] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:14:59] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:14:59] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'action': 'add', 'device_name': 'VAR1.NYC1', 'location': 'NYC1', 'device_role': 'VAR', 'device_vendor': 'Juniper', 'device_model': 'MX10004', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'device_description': 'test device', 'unnamed:_11': 3549, 'floor': 10, 'isle': 2, 'rack': 1, 'network': ''}
+[2026-01-15 23:14:59] [API] [ERROR] ❌ Device Creation Failed: HTTP 422 - {"error":"Validation failed","details":[{"type":"string_type","loc":["body","floor"],"msg":"Input should be a valid string","input":10},{"type":"string_type","loc":["body","rack"],"msg":"Input should be a valid string","input":1}],"body":{"action":"add","device_name":"VAR1.NYC1","location":"NYC1","device_role":"VAR","device_vendor":"Juniper","device_model":"MX10004","availability_zone":"0","lifecycle_status":"Active","planning_status":"Planned","health_status":4,"device_description":"test device","unnamed:_11":3549,"floor":10,"isle":2,"rack":1,"network":""}}
+[2026-01-15 23:14:59] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:14:59] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:16:46] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:16:46] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:16:46] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:16:46] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:16:48] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:16:48] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:16:48] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:16:48] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:05] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:05] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:05] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:05] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:10] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:10] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:10] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:10] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:29] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:29] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:29] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:29] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:32] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:32] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:32] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:18:32] [API] [ERROR] ❌ Device Creation Failed: HTTP 500 - {"error":"Internal Server Error","message":"'DeviceIn' object has no attribute 'location'","path":"/devices/"}
+[2026-01-15 23:18:32] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:32] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:38] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:38] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:18:38] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:18:38] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:23:54] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:23:54] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:23:54] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:23:54] [API] [ERROR] ❌ Device Creation Failed: HTTP 500 - {"error":"Internal Server Error","message":"'DeviceIn' object has no attribute 'location'","path":"/devices/"}
+[2026-01-15 23:23:54] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:23:54] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:23:59] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:23:59] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:23:59] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:23:59] [API] [ERROR] ❌ Device Creation Failed: HTTP 500 - {"error":"Internal Server Error","message":"'DeviceIn' object has no attribute 'location'","path":"/devices/"}
+[2026-01-15 23:23:59] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:23:59] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:25:52] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:25:52] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:25:52] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:25:52] [API] [ERROR] ❌ Device Creation Failed: HTTP 500 - {"error":"Internal Server Error","message":"'DeviceIn' object has no attribute 'location'","path":"/devices/"}
+[2026-01-15 23:25:52] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:25:52] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:25:54] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:25:54] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:25:54] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:25:54] [API] [ERROR] ❌ Device Creation Failed: HTTP 500 - {"error":"Internal Server Error","message":"'DeviceIn' object has no attribute 'location'","path":"/devices/"}
+[2026-01-15 23:25:55] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:25:55] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:31:10] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:31:10] [API] [SUCCESS] ✅ Retrieved 9 devices
+[2026-01-15 23:31:10] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:31:10] [API] [SUCCESS] ✅ Device Created: VAR1.NYC1 (ID: 442c55ab-aa49-4a1c-b6a6-c19a438ca5c7)
+[2026-01-15 23:31:10] [SYS] [ERROR] 📂 File Missing at `templates/roles/fdp_mx10004.csv`
+[2026-01-15 23:31:10] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:31:10] [API] [SUCCESS] ✅ Retrieved 10 devices
+[2026-01-15 23:31:29] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:31:29] [API] [SUCCESS] ✅ Retrieved 10 devices
+[2026-01-15 23:31:29] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:31:29] [API] [SUCCESS] ✅ Device Created: VAR1.NYC1 (ID: 0f2ae1bc-69d9-4bf8-a5bc-1079edc64109)
+[2026-01-15 23:31:29] [SYS] [ERROR] 📂 File Missing at `templates/roles/fdp_mx10004.csv`
+[2026-01-15 23:31:29] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:31:29] [API] [SUCCESS] ✅ Retrieved 11 devices
+[2026-01-15 23:31:31] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:31:31] [API] [SUCCESS] ✅ Retrieved 11 devices
+[2026-01-15 23:31:31] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:31:31] [API] [SUCCESS] ✅ Device Created: VAR1.NYC1 (ID: 7aa9dddc-6725-4a60-8814-defb5d6c289e)
+[2026-01-15 23:31:31] [SYS] [ERROR] 📂 File Missing at `templates/roles/fdp_mx10004.csv`
+[2026-01-15 23:31:31] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:31:31] [API] [SUCCESS] ✅ Retrieved 12 devices
+[2026-01-15 23:35:04] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:35:04] [API] [SUCCESS] ✅ Retrieved 12 devices
+[2026-01-15 23:35:04] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:35:04] [API] [SUCCESS] ✅ Retrieved 12 devices
+[2026-01-15 23:35:17] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:35:17] [API] [SUCCESS] ✅ Retrieved 12 devices
+[2026-01-15 23:35:17] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:35:17] [API] [SUCCESS] ✅ Retrieved 12 devices
+[2026-01-15 23:35:20] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:35:20] [API] [SUCCESS] ✅ Retrieved 12 devices
+[2026-01-15 23:35:20] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.NYC1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '2', 'rack': '1', 'device_description': 'test device'}
+[2026-01-15 23:35:20] [API] [SUCCESS] ✅ Device Created: VAR1.NYC1 (ID: f82c5198-3b0e-4a3e-b994-6dcd930395e7)
+[2026-01-15 23:36:36] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:36:36] [API] [SUCCESS] ✅ Retrieved 13 devices
+[2026-01-15 23:36:36] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-15 23:36:36] [API] [SUCCESS] ✅ Retrieved 13 devices
+[2026-01-15 23:36:39] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:36:39] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-15 23:36:41] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:36:41] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:36:44] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-01-15 23:36:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:36:45] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-15 23:36:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:36:45] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-01-15 23:36:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:36:45] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR2.NYC1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR3.NYC1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR1.DEN1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR2.DEN1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR3.DEN1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR1.SFO1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR2.SFO1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: SDR1.SFO1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: SDR2.SFO1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: SDR1.DEN1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: SDR2.DEN1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: SDR1.NYC1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: SDR2.NYC1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR31.NYC1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR32.NYC1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR32.DEN1 not found in DB.
+[2026-01-15 23:40:35] [SYS] [ERROR] ❌ Cannot delete: VAR31.DEN1 not found in DB.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-01-15 23:42:29] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:42:29] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-01-15 23:53:55] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-15 23:53:55] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-15 23:54:01] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-15 23:54:03] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:57:33] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-01-15 23:57:33] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:57:34] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-01-15 23:57:34] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-15 23:57:34] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-15 23:57:34] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:57:34] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-01-15 23:57:34] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:57:34] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-15 23:57:34] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:57:34] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-01-15 23:57:34] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-15 23:57:34] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-01-16 00:05:21] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-16 00:05:21] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-01-16 00:10:33] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:10:33] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-16 00:20:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:20:04] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-16 00:22:57] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:22:57] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-16 00:23:01] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:01] [API] [SUCCESS] ✅ Retrieved 13 devices
+[2026-01-16 00:23:01] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:01] [API] [SUCCESS] ✅ Retrieved 13 devices
+[2026-01-16 00:23:02] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:02] [API] [SUCCESS] ✅ Retrieved 13 devices
+[2026-01-16 00:23:02] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.DEN1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '11', 'aisle': '2', 'rack': '3', 'device_description': 'test device'}
+[2026-01-16 00:23:02] [API] [SUCCESS] ✅ Device Created: VAR1.DEN1 (ID: ace60d88-c58a-4bc3-801d-d107693eab24)
+[2026-01-16 00:23:02] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:23:02] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-16 00:23:41] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:41] [API] [SUCCESS] ✅ Retrieved 14 devices
+[2026-01-16 00:23:41] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:41] [API] [SUCCESS] ✅ Retrieved 14 devices
+[2026-01-16 00:23:42] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:42] [API] [SUCCESS] ✅ Retrieved 14 devices
+[2026-01-16 00:23:42] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:42] [API] [SUCCESS] ✅ Retrieved 14 devices
+[2026-01-16 00:23:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:43] [API] [SUCCESS] ✅ Retrieved 14 devices
+[2026-01-16 00:23:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:43] [API] [SUCCESS] ✅ Retrieved 14 devices
+[2026-01-16 00:23:45] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:23:45] [API] [SUCCESS] ✅ Retrieved 14 devices
+[2026-01-16 00:23:45] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR2.DEN1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '11', 'aisle': '2', 'rack': '3', 'device_description': 'test device'}
+[2026-01-16 00:23:45] [API] [SUCCESS] ✅ Device Created: VAR2.DEN1 (ID: 5482cc00-6e12-4861-8d55-40845e7ae597)
+[2026-01-16 00:23:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:23:45] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-16 00:28:42] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:28:42] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-16 00:28:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-16 00:28:53] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-01-16 00:29:44] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-16 00:29:44] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-16 00:30:04] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-16 00:30:04] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-16 00:31:58] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:31:58] [API] [SUCCESS] ✅ Retrieved 19 devices
+[2026-01-16 00:31:58] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:31:58] [API] [SUCCESS] ✅ Retrieved 19 devices
+[2026-01-16 00:31:59] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-16 00:31:59] [API] [SUCCESS] ✅ Retrieved 19 devices
+[2026-01-16 00:31:59] [API] [INFO] 📡 API REQ: POST http://fastapi:8000/devices/ | Payload: {'device_name': 'VAR1.SFO1', 'device_role': 'VAR', 'device_model': 'MX10004', 'device_vendor': 'Juniper', 'availability_zone': '0', 'lifecycle_status': 'Active', 'planning_status': 'Planned', 'health_status': 4, 'network': '3549', 'floor': '10', 'aisle': '1', 'rack': '1', 'device_description': 'test device'}
+[2026-01-16 00:31:59] [API] [SUCCESS] ✅ Device Created: VAR1.SFO1 (ID: e74718df-841c-47ff-be7c-098254709658)
+[2026-01-16 00:31:59] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:31:59] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-01-16 00:37:58] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-16 00:37:58] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-16 00:47:41] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:47:41] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-16 00:48:41] [SYS] [ERROR] ❌ Cannot delete: SDR2.SFO1 not found in DB.
+[2026-01-16 00:49:31] [SYS] [ERROR] ❌ Cannot delete: SDR1.NYC1 not found in DB.
+[2026-01-16 00:49:46] [SYS] [ERROR] ❌ Cannot delete: SDR2.SFO1 not found in DB.
+[2026-01-16 00:49:46] [SYS] [ERROR] ❌ Cannot delete: SDR1.DEN1 not found in DB.
+[2026-01-16 00:49:46] [SYS] [ERROR] ❌ Cannot delete: SDR2.DEN1 not found in DB.
+[2026-01-16 00:49:46] [SYS] [ERROR] ❌ Cannot delete: SDR1.NYC1 not found in DB.
+[2026-01-16 00:49:46] [SYS] [ERROR] ❌ Cannot delete: VAR31.NYC1 not found in DB.
+[2026-01-16 00:50:12] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-16 00:50:12] [SYS] [ERROR] ❌ Cannot delete: SDR2.SFO1 not found in DB.
+[2026-01-16 00:50:12] [SYS] [ERROR] ❌ Cannot delete: SDR1.DEN1 not found in DB.
+[2026-01-16 00:50:12] [SYS] [ERROR] ❌ Cannot delete: SDR2.DEN1 not found in DB.
+[2026-01-16 00:50:12] [SYS] [ERROR] ❌ Cannot delete: SDR1.NYC1 not found in DB.
+[2026-01-16 00:50:12] [SYS] [ERROR] ❌ Cannot delete: VAR31.NYC1 not found in DB.
+[2026-01-16 00:51:08] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:08] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-16 00:51:08] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:08] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-16 00:51:08] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:08] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-16 00:51:08] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:08] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-16 00:51:08] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:08] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-16 00:51:08] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-01-16 00:51:09] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-16 00:51:09] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-01-16 04:55:09] [SYS] [SUCCESS] Successfully processed 20 ADD actions.
+[2026-01-16 04:57:00] [SYS] [SUCCESS] Successfully processed 20 ADD actions.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 00:05:53] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 00:05:53] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 00:05:53] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 00:05:53] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 00:05:53] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 00:05:53] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 00:05:53] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 00:05:53] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-17 00:05:53] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-01-17 00:05:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 00:05:54] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-01-17 03:19:36] [SYS] [ERROR] ❌ Cannot delete: VAR1.SFO1 not found in DB.
+[2026-01-17 03:19:36] [SYS] [ERROR] ❌ Cannot delete: ES31.NYC1 not found in DB.
+[2026-01-17 03:19:36] [SYS] [ERROR] ❌ Cannot delete: ES32.NYC1 not found in DB.
+[2026-01-17 03:19:36] [SYS] [ERROR] ❌ Cannot delete: ES33.NYC1 not found in DB.
+[2026-01-17 03:19:36] [SYS] [ERROR] ❌ Cannot delete: ES34.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR2.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR3.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR1.DEN1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR2.DEN1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR3.DEN1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR1.SFO1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR2.SFO1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: SDR1.SFO1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: SDR2.SFO1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: SDR1.DEN1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: SDR2.DEN1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: SDR1.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: SDR2.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR31.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: VAR32.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: ES31.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: ES32.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: ES33.NYC1 not found in DB.
+[2026-01-17 03:20:36] [SYS] [ERROR] ❌ Cannot delete: ES34.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR1.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR2.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR3.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR1.DEN1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR2.DEN1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR3.DEN1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR1.SFO1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR2.SFO1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: SDR1.SFO1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: SDR2.SFO1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: SDR1.DEN1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: SDR2.DEN1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: SDR1.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: SDR2.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR31.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: VAR32.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: ES31.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: ES32.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: ES33.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: ES34.NYC1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: ES31.DEN1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: ES32.DEN1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: ES33.DEN1 not found in DB.
+[2026-01-17 03:22:35] [SYS] [ERROR] ❌ Cannot delete: ES34.DEN1 not found in DB.
+[2026-01-17 03:23:31] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:31] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:31] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:31] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:31] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:31] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:31] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ ES31.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ ES32.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ ES33.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ ES34.NYC1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ ES31.DEN1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ ES32.DEN1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ ES33.DEN1: Device and Ports loaded.
+[2026-01-17 03:23:32] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:23:32] [SYS] [SUCCESS] ✅ ES34.DEN1: Device and Ports loaded.
+[2026-01-17 03:27:55] [SYS] [ERROR] ❌ Cannot delete: VAR31.DEN1 not found in DB.
+[2026-01-17 03:27:55] [SYS] [ERROR] ❌ Cannot delete: VAR32.DEN1 not found in DB.
+[2026-01-17 03:35:40] [SYS] [ERROR] ❌ Cannot delete: VAR31.DEN1 not found in DB.
+[2026-01-17 03:35:42] [SYS] [ERROR] ❌ Cannot delete: VAR32.DEN1 not found in DB.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:36:04] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-17 03:36:04] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ ES31.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ ES32.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ ES33.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ ES34.NYC1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ ES31.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ ES32.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ ES33.DEN1: Device and Ports loaded.
+[2026-01-17 03:36:05] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-17 03:36:05] [SYS] [SUCCESS] ✅ ES34.DEN1: Device and Ports loaded.
+[2026-01-17 03:49:47] [SYS] [SUCCESS] Successfully processed 40 ADD actions.
+[2026-01-17 03:51:45] [SYS] [SUCCESS] Successfully processed 40 ADD actions.
+[2026-01-17 04:08:13] [SYS] [SUCCESS] Successfully processed 52 ADD actions.
+[2026-01-17 04:09:38] [SYS] [SUCCESS] Successfully processed 52 ADD actions.
+[2026-01-17 20:36:46] [SYS] [SUCCESS] Successfully processed 3 ADD actions.
+[2026-01-19 20:39:35] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:39:35] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:39:35] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:39:35] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:39:35] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:39:37] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:39:37] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:39:38] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:39:38] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:39:38] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:39:38] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:39:38] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:39:38] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:39:38] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:39:38] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:40:36] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:40:36] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:40:36] [API] [INFO] 🔍 DEBUG PUT Payload for 3f21f3bd-b099-46d3-9c01-ccf5bd8fa065: {'endpoint_a': '13f4845e-3285-4687-9dc5-5ad72b105623', 'endpoint_a_type': 'port', 'endpoint_b': '83cd086b-f258-4823-9df3-cd5757f04b52', 'endpoint_b_type': 'port', 'link_type': 'Inter-Pop', 'description': 'Inter-Pop', 'channel': 1, 'frequency': 1.0}
+[2026-01-19 20:40:36] [API] [INFO] 🔍 DEBUG PUT Payload for 3916f23d-a197-4019-af08-7fe89212f45b: {'endpoint_a': 'a6e793a4-75db-4f08-ab9d-c5af348a7dc3', 'endpoint_a_type': 'port', 'endpoint_b': '7194ac71-1234-41b5-8cc2-981853214d58', 'endpoint_b_type': 'port', 'link_type': 'Inter-Pop', 'description': 'Inter-Pop', 'channel': 1, 'frequency': 1.0}
+[2026-01-19 20:40:36] [API] [INFO] 🔍 DEBUG PUT Payload for e2266eed-5469-46ba-9e6c-187fb15e29ec: {'endpoint_a': 'aafa4f0d-cdbd-46a5-8b9f-1acba667ef4a', 'endpoint_a_type': 'port', 'endpoint_b': '328948c8-f345-401c-a2f6-832b8ab94793', 'endpoint_b_type': 'port', 'link_type': 'Inter-Pop', 'description': 'Inter-Pop', 'channel': 1, 'frequency': 1.0}
+[2026-01-19 20:40:36] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:40:36] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:40:36] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:15] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:15] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:15] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:41:15] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:15] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:24] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:24] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:24] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:41:25] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:25] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:37] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:37] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:37] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:41:37] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:37] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:42] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:42] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:43] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:41:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR1.SFO1/port/ae4
+[2026-01-19 20:41:43] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: 13f4845e-3285-4687-9dc5-5ad72b105623)
+[2026-01-19 20:41:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR1.DEN1/port/ae4
+[2026-01-19 20:41:43] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: 83cd086b-f258-4823-9df3-cd5757f04b52)
+[2026-01-19 20:41:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR2.SFO1/port/ae4
+[2026-01-19 20:41:43] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: a6e793a4-75db-4f08-ab9d-c5af348a7dc3)
+[2026-01-19 20:41:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR2.NYC1/port/ae4
+[2026-01-19 20:41:43] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: 7194ac71-1234-41b5-8cc2-981853214d58)
+[2026-01-19 20:41:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR2.DEN1/port/ae4
+[2026-01-19 20:41:43] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: aafa4f0d-cdbd-46a5-8b9f-1acba667ef4a)
+[2026-01-19 20:41:43] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR1.NYC1/port/ae4
+[2026-01-19 20:41:43] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: 328948c8-f345-401c-a2f6-832b8ab94793)
+[2026-01-19 20:41:57] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:57] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:57] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:41:57] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:57] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:58] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:58] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:58] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:41:58] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:58] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:59] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:59] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:41:59] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:41:59] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:41:59] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:42:01] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:42:01] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:42:01] [API] [INFO] 🔍 DEBUG PUT Payload for 3f21f3bd-b099-46d3-9c01-ccf5bd8fa065: {'endpoint_a': '13f4845e-3285-4687-9dc5-5ad72b105623', 'endpoint_a_type': 'port', 'endpoint_b': '83cd086b-f258-4823-9df3-cd5757f04b52', 'endpoint_b_type': 'port', 'link_type': 'Inter-Pop', 'description': 'Inter-Pop', 'channel': 1, 'frequency': 1.0}
+[2026-01-19 20:42:01] [API] [INFO] 🔍 DEBUG PUT Payload for 3916f23d-a197-4019-af08-7fe89212f45b: {'endpoint_a': 'a6e793a4-75db-4f08-ab9d-c5af348a7dc3', 'endpoint_a_type': 'port', 'endpoint_b': '7194ac71-1234-41b5-8cc2-981853214d58', 'endpoint_b_type': 'port', 'link_type': 'Inter-Pop', 'description': 'Inter-Pop', 'channel': 1, 'frequency': 1.0}
+[2026-01-19 20:42:01] [API] [INFO] 🔍 DEBUG PUT Payload for e2266eed-5469-46ba-9e6c-187fb15e29ec: {'endpoint_a': 'aafa4f0d-cdbd-46a5-8b9f-1acba667ef4a', 'endpoint_a_type': 'port', 'endpoint_b': '328948c8-f345-401c-a2f6-832b8ab94793', 'endpoint_b_type': 'port', 'link_type': 'Inter-Pop', 'description': 'Inter-Pop', 'channel': 1, 'frequency': 1.0}
+[2026-01-19 20:42:01] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:42:01] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:42:01] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:42:28] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:42:28] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:42:29] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:42:29] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:42:29] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:42:37] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:42:37] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:42:37] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:42:37] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:42:37] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:42:40] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-01-19 20:42:40] [API] [SUCCESS] ✅ Retrieved 35 devices
+[2026-01-19 20:42:40] [API] [SUCCESS] ✅ Retrieved 107 detailed netlinks
+[2026-01-19 20:42:40] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR1.SFO1/port/ae4
+[2026-01-19 20:42:40] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: 13f4845e-3285-4687-9dc5-5ad72b105623)
+[2026-01-19 20:42:40] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR1.DEN1/port/ae4
+[2026-01-19 20:42:40] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: 83cd086b-f258-4823-9df3-cd5757f04b52)
+[2026-01-19 20:42:40] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR2.SFO1/port/ae4
+[2026-01-19 20:42:40] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: a6e793a4-75db-4f08-ab9d-c5af348a7dc3)
+[2026-01-19 20:42:40] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR2.NYC1/port/ae4
+[2026-01-19 20:42:40] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: 7194ac71-1234-41b5-8cc2-981853214d58)
+[2026-01-19 20:42:40] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR2.DEN1/port/ae4
+[2026-01-19 20:42:40] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: aafa4f0d-cdbd-46a5-8b9f-1acba667ef4a)
+[2026-01-19 20:42:40] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/ports/device/SDR1.NYC1/port/ae4
+[2026-01-19 20:42:40] [API] [SUCCESS] ✅ Active Port Found: ae4 (ID: 328948c8-f345-401c-a2f6-832b8ab94793)
+[2026-01-19 20:56:42] [SYS] [SUCCESS] Updated 3 links to Success.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-27 03:40:54] [SYS] [SUCCESS] ✅ ES31.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:54] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ ES32.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:55] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ ES33.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:55] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ ES34.NYC1: Device and Ports loaded.
+[2026-01-27 03:40:55] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:55] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:55] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ ES31.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:55] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ ES32.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:55] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ ES33.DEN1: Device and Ports loaded.
+[2026-01-27 03:40:55] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-01-27 03:40:55] [SYS] [SUCCESS] ✅ ES34.DEN1: Device and Ports loaded.
+[2026-04-01 23:47:55] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-04-01 23:47:56] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-04-01 23:47:56] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-04-01 23:47:56] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-04-01 23:48:22] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-04-01 23:48:22] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-04-01 23:48:22] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-04-01 23:48:22] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-04-01 23:48:30] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-04-01 23:48:30] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-04-01 23:48:30] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-04-01 23:48:30] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-04-01 23:48:31] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-04-01 23:48:31] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-04-01 23:48:31] [API] [INFO] 📡 API REQ: GET http://fastapi:8000/devices/
+[2026-04-01 23:48:31] [API] [SUCCESS] ✅ Retrieved 26 devices
+[2026-04-28 02:02:37] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-28 02:02:37] [SYS] [SUCCESS] ✅ ES31.SFO1: Device and Ports loaded.
+[2026-04-28 02:02:37] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-28 02:02:37] [SYS] [SUCCESS] ✅ ES32.SFO1: Device and Ports loaded.
+[2026-04-28 02:02:37] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-28 02:02:37] [SYS] [SUCCESS] ✅ ES33.SFO1: Device and Ports loaded.
+[2026-04-28 02:02:37] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-28 02:02:37] [SYS] [SUCCESS] ✅ ES34.SFO1: Device and Ports loaded.
+[2026-04-28 02:13:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-28 02:13:45] [SYS] [SUCCESS] ✅ VAR31.SFO1: Device and Ports loaded.
+[2026-04-28 02:13:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-28 02:13:45] [SYS] [SUCCESS] ✅ VAR32.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 03:35:45] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 03:35:45] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 03:35:45] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:45] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES31.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES32.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES33.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES34.NYC1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES31.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES32.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES33.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES34.DEN1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES31.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES32.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES33.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ ES34.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR31.SFO1: Device and Ports loaded.
+[2026-04-29 03:35:46] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 03:35:46] [SYS] [SUCCESS] ✅ VAR32.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:13] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 04:00:13] [SYS] [SUCCESS] ✅ VAR1.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:13] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 04:00:13] [SYS] [SUCCESS] ✅ VAR2.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:13] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 04:00:13] [SYS] [SUCCESS] ✅ VAR3.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:13] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 04:00:13] [SYS] [SUCCESS] ✅ VAR1.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:13] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 04:00:13] [SYS] [SUCCESS] ✅ VAR2.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:13] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 04:00:13] [SYS] [SUCCESS] ✅ VAR3.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:13] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 04:00:13] [SYS] [SUCCESS] ✅ VAR1.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:13] [SYS] [SUCCESS] 📄 Loaded template: var_mx10004.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ VAR2.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ SDR1.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ SDR2.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ SDR1.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ SDR2.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ SDR1.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: sdr_mx10004.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ SDR2.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ VAR31.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ VAR32.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES31.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES32.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES33.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES34.NYC1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ VAR31.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ VAR32.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES31.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES32.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES33.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES34.DEN1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES31.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES32.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES33.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: es_acx7100.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ ES34.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ VAR31.SFO1: Device and Ports loaded.
+[2026-04-29 04:00:14] [SYS] [SUCCESS] 📄 Loaded template: var_mx304.csv
+[2026-04-29 04:00:14] [SYS] [SUCCESS] ✅ VAR32.SFO1: Device and Ports loaded.
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr2se.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR1.SFO1: Port Template not found (var_7750-sr2se.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr1.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR2.SFO1: Port Template not found (var_7750-sr1.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr2se.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR3.SFO1: Port Template not found (var_7750-sr2se.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr2se.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR1.DEN1: Port Template not found (var_7750-sr2se.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr1.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR2.DEN1: Port Template not found (var_7750-sr1.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr2se.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR3.DEN1: Port Template not found (var_7750-sr2se.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr2se.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR1.NYC1: Port Template not found (var_7750-sr2se.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr1.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR2.NYC1: Port Template not found (var_7750-sr1.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr2se.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR3.NYC1: Port Template not found (var_7750-sr2se.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr2se.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR1.WDC1: Port Template not found (var_7750-sr2se.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr1.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR2.WDC1: Port Template not found (var_7750-sr1.csv)
+[2026-04-30 15:52:13] [SYS] [ERROR] ⚠️ File Missing at templates/roles/var_7750-sr2se.csv
+[2026-04-30 15:52:13] [SYS] [ERROR] ❌ EAR3.WDC1: Port Template not found (var_7750-sr2se.csv)
+[2026-05-15 17:44:13] [SYS] [SUCCESS] 📄 Loaded template: ms_ncs8201.csv
+[2026-05-15 17:44:13] [SYS] [SUCCESS] ✅ DNVRCOMMS001: Device and Ports loaded.
+[2026-05-15 17:44:13] [SYS] [SUCCESS] 📄 Loaded template: ms_ncs8201.csv
+[2026-05-15 17:44:13] [SYS] [SUCCESS] ✅ DNVRCOMMS002: Device and Ports loaded.
+[2026-05-15 17:44:13] [SYS] [SUCCESS] 📄 Loaded template: ols_ncs1001.csv
+[2026-05-15 17:44:13] [SYS] [SUCCESS] ✅ DNVRCOMN1001: Device and Ports loaded.
+[2026-05-15 17:44:13] [SYS] [SUCCESS] 📄 Loaded template: ols_ncs1001.csv
+[2026-05-15 17:44:13] [SYS] [SUCCESS] ✅ DNVRCOMN1002: Device and Ports loaded.
+[2026-05-15 17:44:13] [SYS] [SUCCESS] 📄 Loaded template: ecn_ncs57c1.csv
+[2026-05-15 17:44:13] [SYS] [SUCCESS] ✅ DNVRCOM7C001: Device and Ports loaded.
+[2026-05-15 17:44:13] [SYS] [SUCCESS] 📄 Loaded template: ecn_ncs57c1.csv
+[2026-05-15 17:44:13] [SYS] [SUCCESS] ✅ DNVRCOM7C002: Device and Ports loaded.
+[2026-05-15 17:44:13] [SYS] [SUCCESS] 📄 Loaded template: gw_ncs57b1.csv
+[2026-05-15 17:44:13] [SYS] [SUCCESS] ✅ DNVRCOMMG001: Device and Ports loaded.
+[2026-05-15 17:44:13] [SYS] [SUCCESS] 📄 Loaded template: gw_ncs57b1.csv
+[2026-05-15 17:44:13] [SYS] [SUCCESS] ✅ DNVRCOMMG002: Device and Ports loaded.
+[2026-05-15 20:02:07] [SYS] [ERROR] ❌ Cannot delete: DNVRCOMAMS001 not found in DB.
+[2026-05-15 20:02:07] [SYS] [ERROR] ❌ Cannot delete: DNVRCOMAMS002 not found in DB.
+[2026-05-15 20:02:07] [SYS] [ERROR] ❌ Cannot delete: DNVRCOMA7C001 not found in DB.
+[2026-05-15 20:02:07] [SYS] [ERROR] ❌ Cannot delete: DNVRCOMA7C002 not found in DB.
+[2026-05-15 20:02:07] [SYS] [ERROR] ❌ Cannot delete: DNVRCOMAMG001 not found in DB.
+[2026-05-15 20:02:07] [SYS] [ERROR] ❌ Cannot delete: DNVRCOMAMG002 not found in DB.
+[2026-05-15 20:02:07] [SYS] [ERROR] ❌ Cannot delete: DNVRCOMAMG001 not found in DB.
+[2026-05-15 20:02:07] [SYS] [ERROR] ❌ Cannot delete: DNVRCOMAMG002 not found in DB.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: ms_ncs8201.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMAMS001: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: ms_ncs8201.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMAMS002: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: ols_ncs1001.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMAMN1001: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: ols_ncs1001.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMAMN1002: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: ecn_ncs57c1.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMA7C001: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: ecn_ncs57c1.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMA7C002: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: gw_ncs57b1.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMAMG001: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: gw_ncs57b1.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMAMG002: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: man_tsg1100.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMAMM001: Device and Ports loaded.
+[2026-05-15 20:49:35] [SYS] [SUCCESS] 📄 Loaded template: man_tsg1100.csv
+[2026-05-15 20:49:35] [SYS] [SUCCESS] ✅ DNVRCOMAMM002: Device and Ports loaded.

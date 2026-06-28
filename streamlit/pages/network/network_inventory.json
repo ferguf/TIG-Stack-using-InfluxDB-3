@@ -1,0 +1,56 @@
+{
+  "AS3356": {
+    "default_role": "EBR",
+    "tiers": {
+      "Tier 1 Core": ["EBR"],
+      "Tier 2 Edge": ["EAR", "EDGE", "BAR", "BEAR"],
+      "Tier 3 Legacy": ["PR", "MAR", "AR"],
+      "DDOS": ["MSR"]
+    },
+    "colors": {
+      "Tier 1 Core": "#8E44AD",
+      "Tier 2 Edge": "#0078D7",
+      "Tier 3 Legacy": "#F39C12",
+      "DDOS": "#E74C3C",
+      "Mixed / Other": "#00CECB",
+      "Unknown": "#6C757D"
+    }
+  },
+  "AS3549": {
+    "default_role": "SDR",
+    "tiers": {
+      "Tier 1": ["SDR", "PCOR"],
+      "Tier 1 / Tier 2": ["EBR"],
+      "Tier 2": ["SCR"],
+      "Tier 3 / TWTC": ["CR"],
+      "Tier 3 Z": ["BAR", "BEAR"],
+      "Problem (EAR Only)": ["EAR"]
+    },
+    "colors": {
+      "Tier 1": "#8E44AD",
+      "Tier 1 / Tier 2": "#0078D7",
+      "Tier 2": "#F39C12",
+      "Tier 3": "#00CECB",
+      "Tier 3 / TWTC": "#2ECC71",
+      "Tier 3 Z": "#1ABC9C",
+      "Problem (EAR Only)": "#E74C3C",
+      "Mixed / Other": "#95A5A6",
+      "Unknown": "#6C757D"
+    }
+  },
+  "AS209": {
+    "default_role": "CORE",
+    "tiers": {
+      "Tier 1 Core": ["CORE", "PCOR"],
+      "Tier 2 VPN Edge Aggregation": ["PRIV"],
+      "Tier 2 Internet Edge": ["EDGE"]
+    },
+    "colors": {
+      "Tier 1 Core": "#0078D7",
+      "Tier 2 Aggregation": "#8E44AD",
+      "Tier 3 Edge": "#1ABC9C",
+      "Mixed / Other": "#F39C12",
+      "Unknown": "#6C757D"
+    }
+  }
+}

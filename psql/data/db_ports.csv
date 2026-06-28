@@ -1,0 +1,11 @@
+device_name,port_name,port_service_status,fabric_port_type,port_speed
+VAR1.DEN1,gig-1/0/0,Available,Physical,400G
+VAR1.DEN1,gig-1/0/1,Ready for use,Physical,400G
+VAR1.DEN1,gig-1/0/2,Ready for use,Physical,400G
+VAR1.DEN1,gig-1/0/3,Ready for use,Physical,400G
+VAR1.DEN1,gig-1/0/4,Ready for use,Physical,400G
+VAR2.DEN1,gig-1/0/0,Available,Physical,400G
+VAR2.DEN1,gig-1/0/1,Ready for use,Physical,400G
+VAR2.DEN1,gig-1/0/2,Ready for use,Physical,400G
+VAR2.DEN1,gig-1/0/3,Ready for use,Physical,400G
+VAR2.DEN1,gig-1/0/4,Ready for use,Physical,400G

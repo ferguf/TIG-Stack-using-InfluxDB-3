@@ -1,0 +1,91 @@
+{
+  "id": "galaxy-root-id",
+  "name": "The Elliptical Galaxy",
+  "type": "Galaxy",
+  "starting_offset_angle": 0.0,
+  "size": "xxl",
+  "color": "random",
+  "visible": "true",
+  "url": "https://model.com/galaxy/root-id",
+  "visualization_config": {
+    "visual_mode": "2D",
+    "angle_mode": "360_deg"
+  },
+  "constellations": [
+    {
+      "id": "star-system-1-id",
+      "name": "StarSystem-1",
+      "type": "StarSystem",
+      "grid_location": "Grid-1",
+      "starting_offset_angle": 0.0,
+      "size": "xxl",
+      "color": "yellow",
+      "visible": "true",
+      "url": "https://model.com/star/star-system-1-id",
+      "planets": [
+        {
+          "id": "planet-1-id",
+          "name": "Planet-S1-P1",
+          "type": "Planet",
+          "orbit_definition": {
+            "shape": "ellipse",
+            "radius_params": [100.0, 50.0],
+            "direction": "clockwise",
+            "speed_sec": 3.0
+          },
+          "drawing_offset_angle": 0.0,    // Calculated position (1st planet)
+          "size": "m",
+          "color": "cyan",
+          "visible": "true",
+          "moons": [],
+          "url": "https://model.com/planet/planet-1-id"
+        },
+        {
+          "id": "planet-2-id",
+          "name": "Planet-S1-P2",
+          "type": "Planet",
+          "orbit_definition": {
+            "shape": "ellipse",
+            "radius_params": [100.0, 50.0],
+            "direction": "clockwise",
+            "speed_sec": 3.0
+          },
+          "drawing_offset_angle": 120.0,  // Calculated position (360 / 3 = 120)
+          "size": "m",
+          "color": "magenta",
+          "visible": "true",
+          "moons": [],
+          "url": "https://model.com/planet/planet-2-id"
+        },
+        {
+          "id": "planet-3-id",
+          "name": "Planet-S1-P3",
+          "type": "Planet",
+          "orbit_definition": {
+            "shape": "ellipse",
+            "radius_params": [100.0, 50.0],
+            "direction": "clockwise",
+            "speed_sec": 3.0
+          },
+          "drawing_offset_angle": 240.0,  // Calculated position (120 * 2 = 240)
+          "size": "m",
+          "color": "red",
+          "visible": "true",
+          "moons": [],
+          "url": "https://model.com/planet/planet-3-id"
+        }
+      ]
+    }
+  ],
+  "links": [
+    // P2P Links from Star to each Planet
+    { "id_a": "star-system-1-id", "id_b": "planet-1-id", "link_type": "line", "color": "green", "size": "s", "style": "solid" },
+    { "id_a": "star-system-1-id", "id_b": "planet-2-id", "link_type": "line", "color": "green", "size": "s", "style": "solid" },
+    { "id_a": "star-system-1-id", "id_b": "planet-3-id", "link_type": "line", "color": "green", "size": "s", "style": "solid" },
+
+    // Orbital Arc Links (P1 -> P2 -> P3 -> P1)
+    { "id_a": "planet-1-id", "id_b": "planet-2-id", "link_type": "arc", "color": "blue", "size": "xs", "style": "dash" },
+    { "id_a": "planet-2-id", "id_b": "planet-3-id", "link_type": "arc", "color": "blue", "size": "xs", "style": "dash" },
+    { "id_a": "planet-3-id", "id_b": "planet-1-id", "link_type": "arc", "color": "blue", "size": "xs", "style": "dash" }
+  ]
+}

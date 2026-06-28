@@ -1,0 +1,7 @@
+﻿action,device_a,port_a,device_b,port_b,link_type,channel,frequency,description,, 
+add,SDR1.SFO1,ae4,SDR1.DEN1,ae4,Inter-Pop,1,1,Inter-Pop,,
+add,SDR2.SFO1,ae4,SDR2.NYC1,ae4,Inter-Pop,1,1,Inter-Pop,,
+add,SDR2.DEN1,ae4,SDR1.NYC1,ae4,Inter-Pop,1,1,Inter-Pop,,
+add,SDR1.SFO1,gig-0/0/9,SDR1.DEN1,gig-0/0/9,Inter-Pop,1,1,Inter-Pop,,
+add,SDR2.SFO1,gig-0/0/9,SDR2.NYC1,gig-0/0/9,Inter-Pop,1,1,Inter-Pop,,
+add,SDR2.DEN1,gig-0/0/9,SDR1.NYC1,gig-0/0/9,Inter-Pop,1,1,Inter-Pop,,

@@ -1,0 +1,43 @@
+port_name,port_speed,port_description,port_optic,port_tagging,port_cktid,port_service_status,port_type,port_health_status
+gig-0/0/0,400G,reserved,100G-LR4,Lag_member,CKT-001,Staged,Physical,4
+gig-0/0/1,400G,reserved,100G-LR4,Lag_member,CKT-001,Staged,Physical,4
+gig-0/0/2,400G,reserved,100G-LR5,Lag_member,CKT-002,Staged,Physical,4
+gig-0/0/3,400G,reserved,100G-LR6,Lag_member,CKT-003,Staged,Physical,4
+gig-0/0/4,400G,reserved,100G-LR7,Lag_member,CKT-004,Staged,Physical,4
+gig-0/0/5,400G,reserved,100G-LR8,Lag_member,CKT-005,Staged,Physical,4
+gig-0/0/6,400G,reserved,100G-LR9,Lag_member,CKT-006,Staged,Physical,4
+gig-0/0/7,400G,reserved,100G-LR10,Lag_member,CKT-007,Staged,Physical,4
+gig-0/0/8,400G,reserved,100G-LR11,Lag_member,CKT-008,Staged,Physical,4
+gig-0/0/9,400G,reserved,100G-LR12,Lag_member,CKT-009,Staged,Physical,4
+gig-0/0/10,400G,reserved,100G-LR13,Lag_member,CKT-010,Staged,Physical,4
+gig-0/0/11,400G,reserved,100G-LR14,Lag_member,CKT-011,Staged,Physical,4
+gig-0/0/12,400G,reserved,100G-LR15,Lag_member,CKT-012,Staged,Physical,4
+gig-0/0/13,400G,reserved,100G-LR16,Lag_member,CKT-013,Staged,Physical,4
+gig-0/0/14,400G,reserved,100G-LR17,Lag_member,CKT-014,Staged,Physical,4
+gig-0/0/15,400G,reserved,100G-LR18,Lag_member,CKT-015,Staged,Physical,4
+gig-0/0/16,400G,reserved,100G-LR19,Lag_member,CKT-016,Staged,Physical,4
+gig-0/0/17,400G,reserved,100G-LR20,Lag_member,CKT-017,Staged,Physical,4
+gig-0/0/18,400G,reserved,100G-LR21,Lag_member,CKT-018,Staged,Physical,4
+gig-0/0/19,400G,reserved,100G-LR22,Lag_member,CKT-019,Staged,Physical,4
+gig-0/0/20,400G,reserved,100G-LR23,Lag_member,CKT-020,Staged,Physical,4
+gig-0/0/21,400G,reserved,100G-LR24,Lag_member,CKT-021,Staged,Physical,4
+gig-0/0/22,400G,reserved,100G-LR25,Lag_member,CKT-022,Staged,Physical,4
+gig-0/0/23,400G,reserved,100G-LR26,Lag_member,CKT-023,Staged,Physical,4
+gig-0/0/24,400G,reserved,100G-LR27,Lag_member,CKT-024,Staged,Physical,4
+gig-0/0/25,400G,reserved,100G-LR28,Lag_member,CKT-025,Staged,Physical,4
+gig-0/0/26,400G,reserved,100G-LR29,Lag_member,CKT-026,Staged,Physical,4
+gig-0/0/27,400G,reserved,100G-LR30,Lag_member,CKT-027,Staged,Physical,4
+gig-0/0/28,400G,reserved,100G-LR31,Lag_member,CKT-028,Staged,Physical,4
+gig-0/0/29,400G,reserved,100G-LR32,Lag_member,CKT-029,Staged,Physical,4
+gig-0/0/30,400G,reserved,100G-LR33,Lag_member,CKT-030,Staged,Physical,4
+gig-0/0/31,400G,reserved,100G-LR34,Lag_member,CKT-031,Staged,Physical,4
+gig-0/0/32,400G,reserved,100G-LR35,Lag_member,CKT-032,Staged,Physical,4
+ae0,400G,LAG bundle,LAG,Tagged,CKT-033,Staged,Logical,4
+ae1,400G,LAG bundle,LAG,Tagged,CKT-034,Staged,Logical,4
+ae2,400G,LAG bundle,LAG,Tagged,CKT-035,Staged,Logical,4
+ae3,400G,LAG bundle,LAG,Tagged,CKT-036,Staged,Logical,4
+ae4,400G,LAG bundle,LAG,Tagged,CKT-037,Staged,Logical,4
+ae5,400G,LAG bundle,LAG,Tagged,CKT-038,Staged,Logical,4
+ae6,400G,LAG bundle,LAG,Tagged,CKT-039,Staged,Logical,4
+MAN-1,1G,Management,1G-LX,Tagged,CKT-010,Coherent,Physical,4
+Console ,aysnc,async,cat5,none,CKT-010,copper,Physical,4

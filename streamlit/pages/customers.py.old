@@ -1,0 +1,49 @@
+
+import streamlit as st
+from streamlit_extras.colored_header import colored_header
+from api_client import get_customers, post_customer, delete_customer
+from ui_components import render_customer_table
+
+# -----------------------------
+# Page Header
+# -----------------------------
+
+colored_header("Customer Dashboard", "View and manage customer data", color_name="blue-70")
+
+with st.sidebar.expander("Customer Endpoints", expanded=False):
+    if st.button("Get All Customers", key="btn_get_customers"):
+        try:
+            df = get_customers()
+            st.session_state["customer_df"] = df
+        except Exception as e:
+            st.error(f"Failed to fetch customers: {e}")
+
+    st.text_input("Customer Name", key="new_customer_name")
+    st.text_input("Account ID", key="new_customer_account")
+    if st.button("Add Customer", key="btn_add_customer"):
+        try:
+            new_customer = post_customer(
+                st.session_state["new_customer_name"],
+                st.session_state["new_customer_account"],
+            )
+            st.success(f"Customer created: {new_customer['customer_name']}")
+            # Refresh list
+            df = get_customers()
+            st.session_state["customer_df"] = df
+        except Exception as e:
+            st.error(f"Failed to add customer: {e}")
+
+    st.text_input("Customer Name to delete", key="delete_customer_name")
+    if st.button("Delete Customer", key="btn_delete_customer"):
+        try:
+            result = delete_customer(st.session_state["delete_customer_name"])
+            st.success(f"Customer deleted: {result}")
+            st.session_state["customer_df"] = get_customers()
+        except Exception as e:
+            st.error(f"Failed to delete customer: {e}")
+
+
+if "customer_df" in st.session_state and st.session_state["customer_df"] is not None:
+    render_customer_table(st.session_state["customer_df"])
+else:
+    st.info("No customer data loaded yet. Use the sidebar to fetch customers.")

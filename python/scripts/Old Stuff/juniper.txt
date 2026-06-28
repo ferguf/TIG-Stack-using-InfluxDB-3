@@ -1,0 +1,62 @@
+<rpc-reply>
+    <chassis-inventory>
+        <chassis>
+            <name>MX10004</name>
+            <serial-number>BUILTIN</serial-number>
+            <description>JUNIPER NETWORKS MX10004</description>
+        </chassis>
+        <chassis-module>
+            <name>Midplane</name>
+            <version>REV 07</version>
+            <model-number>750-089906</model-number>
+        </chassis-module>
+        <chassis-module>
+            <name>Routing Engine 0</name>
+            <type>RE</type>
+            <serial-number>ABCD12345</serial-number>
+            <model-number>JNP-RE-MX10000</model-number>
+        </chassis-module>
+        <chassis-module>
+            <name>Routing Engine 1</name>
+            <type>RE</type>
+            <serial-number>ABCD12346</serial-number>
+            <model-number>JNP-RE-MX10000</model-number>
+        </chassis-module>
+        <chassis-module>
+            <name>Line Card 2</name>
+            <type>LC</type>
+            <serial-number>EFGH67890</serial-number>
+            <model-number>JNP-LC480-SF</model-number>
+            <status>Online</status>
+        </chassis-module>
+        <chassis-module>
+            <name>Line Card 1</name>
+            <type>LC</type>
+            <serial-number>EFGH67890</serial-number>
+            <model-number>JNP-LC480-SF</model-number>
+            <status>Online</status>
+        </chassis-module>
+        <chassis-module>
+            <name>Power Supply 0</name>
+            <type>PSM</type>
+            <serial-number>EFGH67890</serial-number>
+            <model-number>JNP-PSM-2400-AC</model-number>
+            <status>Online</status>
+        </chassis-module>
+        <chassis-module>
+            <name>Power Supply 1</name>
+            <type>PSM</type>
+            <serial-number>EFGH67890</serial-number>
+            <model-number>JNP-PSM-2400-AC</model-number>
+            <status>Online</status>
+        </chassis-module>
+        <chassis-module>
+            <name>Power Supply 3</name>
+            <type>PSM</type>
+            <serial-number>EFGH67890</serial-number>
+            <model-number>JNP-PSM-2400-AC</model-number>
+            <status>Online</status>
+        </chassis-module>
+
+        </chassis-inventory>
+</rpc-reply>
